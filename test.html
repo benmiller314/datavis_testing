@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>D3: Loading data from a CSV file</title>
+		<script type="text/javascript" src="../d3/d3.js"></script>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var dataset 	// declare global variable
+			
+			d3.csv("co-topic edge table, consorts, k55, 20pct.csv", function(error, data) {
+				if(error) {
+					console.log(error)
+				} else {
+				
+				dataset = data;
+				
+				
+				
+				// data.forEach(function(i) {
+// 					links.push({source: i.source, target: i.target, weight: i.weight})
+// 				});
+				console.log(dataset);				
+				}
+			});
+
+
+		</script>
+	</body>
+</html>
