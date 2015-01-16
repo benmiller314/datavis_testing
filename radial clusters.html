@@ -65,9 +65,19 @@ svg.append("svg:path")
     .on("mousedown", mousedown);
 
 // Bring in the data
+	// first set parameters (will be updatable soon)
+var level = 12,		// what percentage does each topic comprise in a given doc?
+	min   = 2;		// how many times should the pair occur?
 
+	//then combine them into a filename
+var	datafile = "edges_consortsk55_" + level.toString() + "pct_min" + min.toString() + "_nobads.json";
 
-d3.json("edges_consortsk55_12pct_min4_nobads.json", function(error, classes) {
+	// also, let's update the intro text
+document.getElementById("level").innerText = level;
+document.getElementById("min").innerText = min;
+
+	// finally, load the file and draw
+var drawit = d3.json(datafile, function(error, classes) {
   var nodes = cluster.nodes(packages.root(classes)),
       links = packages.imports(nodes),
       splines = bundle(links);
