@@ -106,9 +106,10 @@ console.log(nodes);
   node.append("svg:text")
       .attr("dx", function(d) { return d.x < 180 ? 8 : -8; })
       .attr("dy", ".31em")
-      .attr("text-anchor", function(d) { return d.x < 180 ? "start" : "end"; })
+      .attr("text-anchor", function(d) { 
+      		if (d.children) { return "middle"; } else return d.x < 180 ? "start" : "end"; })
       .attr("transform", function(d) { 
-      		if (d.children) { return "rotate(90)"; }
+      		if (d.children) { return d.children.length==1 ? "scale(0.1)" : (d.x < 90 || d.x > 270) ? "rotate(90)" : "rotate(-90)" ; }
       		else { return d.x < 180 ? null : "rotate(180)"; }
       	})
       .text(function(d) { return d.name; });
