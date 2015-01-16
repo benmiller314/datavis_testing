@@ -46,20 +46,26 @@ div#details {
   position: absolute;
   left: 725px;
   float: right;
-  width: 250px;
+  max-width: 250px;
+  top:225px;
   word-wrap: break-word;
 /*   border: 1px solid #DEDEDE;		// for testing only  */
 }
 
-div#slider {
-	position:relative;
-	top:3px;
-	left:0px; 
-	font-size:18px; 
-	width:auto;
+div#inputs {
+	position:absolute;
+	top:150px;
+	left:725px; 
+	font-size:11px; 
+	max-width:250px;
 /* 	border: 1px solid #DEDEDE;		// for testing only  */
 }
 
 .node {
 	font-size: 9pt;
 }
+
+label { float:left; clear:none; display:block; padding: 2px 0 0 1em; }
+input.radio { float:left; clear:none; padding: 2px 0 0 1em; }
+
+

@@ -20,10 +20,26 @@
 	<h2>55 total topics, less 5 excluded topics</h2>
 </div>
 <div id="intro">
-	<p>To be linked in this figure, two topics topic must each contribute at least 12 percent to the same dissertation,
-	   and such a pairing must occur at least 4 times.</p>
+	<p>To be linked in this figure, two topics must each contribute at least <span id="level">12</span> percent to the same dissertation,
+	   and such a pairing must occur at least <span id="min">4</span> times.</p>
 </div>
-<div id="slider"><input style="position:relative;top:3px;" type="range" min="0" max="100" value="85"></div>
+<div id="inputs">
+<div>Change tension: <input style="position:relative;top:3px;" type="range" min="0" max="100" value="85"></div>
+<div>Change minimum co-occurrences:
+<form style="padding-top:10px;" id="edge_min">
+	<label for="edge_min_1">1</label>
+	<input type="radio" class="radio" name="edge_min" id="edge_min_1" value="1" />
+	<label for="edge_min_2">2</label>
+	<input type="radio" class="radio" name="edge_min" id="edge_min_2" value="2" />
+	<label for="edge_min_3">3</label>
+	<input type="radio" class="radio" name="edge_min" id="edge_min_3" value="3" />
+	<label for="edge_min_4">4</label>
+	<input type="radio" class="radio" name="edge_min" id="edge_min_4" value="4" />
+	<label for="edge_min_5">5</label>
+	<input type="radio" class="radio" name="edge_min" id="edge_min_5" value="5" />
+</form>
+</div>
+</div>
 <div id="figure"></div>
 <div id="details">Hover over any item for more details.</div>
 
