@@ -56,7 +56,7 @@ var w = 1280,
 
 var pack = d3.layout.pack()
     .size([r, r])
-    .value(function(d) { return d.size; })
+    .value(function(d) { return d.scaledsize; })
 
 var vis = d3.select("body").insert("svg:svg", "h2")
     .attr("width", w)
