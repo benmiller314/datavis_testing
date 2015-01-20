@@ -86,7 +86,12 @@ d3.json("consortsk55_clusters_nobads.json", function(data) {
       .attr("y", function(d) { return d.y - d.r; })
       .attr("dy", ".35em")
       .attr("text-anchor", "middle")
-      .style("opacity", function(d) { return d.r > 20 ? 1 : 0; })
+      .style("opacity", function(d) { 
+				if (d.r > 20) {
+					if (!(d.children)) { return 1; 
+					} else return (d.parent && d.parent.children.length == 1) ? 0 : 1;					
+      			} else { return 0; }
+      		})
       .text(function(d) { return d.name; });
       
   vis.selectAll("circle")
@@ -122,8 +127,13 @@ function zoom(d, i) {
   t.selectAll("text")
       .attr("x", function(d) { return x(d.x); })
       .attr("y", function(d) { return y(d.y - d.r); })
-      .style("opacity", function(d) { return k * d.r > 20 ? 1 : 0; });
-
+//       .style("opacity", function(d) { return k * d.r > 20 ? 1 : 0; });
+      .style("opacity", function(d) { 
+				if (k * d.r > 20) {
+					if (!(d.children)) { return 1; 
+					} else return (d.parent && d.parent.children.length == 1) ? 0 : 1;					
+      			} else { return 0; }
+      		})
   node = d;
   d3.event.stopPropagation();
 }
