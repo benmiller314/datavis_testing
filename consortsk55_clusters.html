@@ -6,7 +6,11 @@
     <script type="text/javascript" src="../d3/lib/colorbrewer/colorbrewer.js"></script>
 <!--     <script type="text/javascript" src="../d3/d3.layout.js"></script> -->
 <!--     <script type="text/javascript" src="packages.js"></script> -->
-    <link type="text/css" rel="stylesheet" href="style.css"/>
+<!--     <link type="text/css" rel="stylesheet" href="style.css"/> -->
+<!-- Bring in the stylesheets -->
+	<link type="text/css" rel="stylesheet" href="../d3/bostock_style.css"/>
+	<link type="text/css" rel="stylesheet" href="../d3/fredheim_style.css"/>
+    <link type="text/css" rel="stylesheet" href="layout.css"/>
     <style type="text/css">
 
 path.arc {
@@ -22,7 +26,6 @@ path.arc {
 
 .node {
   font-size: 13px;
-  pointer-events: none;
 }
 
 .link {
@@ -34,18 +37,21 @@ path.arc {
     </style>
   </head>
   <body>
-    <div id="body">
-      <div id="footer" style="max-width:30%; float:right;">
-        1754 full-text Consortium dissertations, 
-        55 topics
-        <div class="hint">
-          drag the ring to rotate
-        </div>
-      </div>
-    </div>
-    <script type="text/javascript">
+	<!-- Set up the page structure -->
+	<div id="title">
+		<h1>Hierarchical similarity of topics in Consortium dissertations</h1>
+		<h2>55 total topics, less 5 excluded topics</h2>
+	</div>
+	<div id="intro">
+		<p>Branches were produced by agglomerative clustering in R using cor() and hclust(), and the resulting tree cut to highlight major divisions. The central node (labeled '1of1') contains all topics; each subsequent branch point represents a point of convenience for considering groups of topics, with the first number being an arbitrary name and the second indicating the number of groups formed by that cut.</p>
+	</div>
+	<div id="figure"></div>
+	<div id="details">Hover over any item for more details. TO DO: Add function to capture total contribution of groups, not just individual topics.</div>
 
-var w = 1280,
+<!-- Set up the figure -->
+<script type="text/javascript">
+
+var w = 700,
     h = 700,
     rx = (w / 2) - (h / 100),
     ry = (h / 2) - (h / 100),
@@ -60,7 +66,7 @@ var cluster = d3.layout.cluster()
 var diagonal = d3.svg.diagonal.radial()
     .projection(function(d) { return [d.y, d.x / 180 * Math.PI]; });
 
-var svg = d3.select("#body").append("div")
+var svg = d3.select("#figure").append("div")
     .style("width", w + "px")
     .style("height", w + "px");
 
@@ -75,6 +81,7 @@ vis.append("svg:path")
     .attr("d", d3.svg.arc().innerRadius(ry - 120).outerRadius(ry).startAngle(0).endAngle(2 * Math.PI))
     .on("mousedown", mousedown);
 
+// Bring in the data and draw the figure
 d3.json("consortsk55_clusters_nobads.json", function(json) {
   var nodes = cluster.nodes(json);
 console.log(nodes);
@@ -113,6 +120,7 @@ console.log(nodes);
       		else { return d.x < 180 ? null : "rotate(180)"; }
       	})
       .text(function(d) { return d.name; });
+      .on("mouseover", mouseover);
       
 });
 
@@ -173,6 +181,19 @@ function cross(a, b) {
 function dot(a, b) {
   return a[0] * b[0] + a[1] * b[1];
 }
+
+function mouseover(d) {
+	  console.log(d);
+	  console.log("scaledsize: " + d.scaledsize);
+	  console.log("topwords: " + d.topwords[0]);
+  
+	  var deets = document.getElementById("details");
+	  deets.innerHTML = "<h2>Topic " + d.topic + ": " + d.name[0].replace(/_/g, ' ') + "</h2>" 
+						+ "<div id='size'>Percentage of corpus: " + d.scaledsize[0] * 100 + "<br /><br /></div>" 
+						+ "<div id='size'>Topic Rank: " + d.rank[0] + "<br /><br /></div>" 
+						+ "<div id='topwords'>Top words: " + d.topwords[0].split(' ').join(', ') + "...</div>";
+}
+
 
     </script>
   </body>
