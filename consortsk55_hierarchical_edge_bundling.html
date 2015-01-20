@@ -79,7 +79,7 @@ document.getElementById("level").innerText = level;
 document.getElementById("min").innerText = min;
 
 	// finally, load the file and draw
-var drawit = d3.json(datafile, function(error, classes) {
+var drawit = d3.json(datafile, function(error, classes) {		// TO DO: what if this line starts with `function` instead of `var`?
   var nodes = cluster.nodes(packages.root(classes)),
       links = packages.imports(nodes),
       splines = bundle(links);
@@ -170,8 +170,8 @@ function mouseover(d) {
 //   console.log("scaledsize: " + d.scaledsize);
 //   console.log("topwords: " + d.topwords);
   deets.innerHTML = "<h2>Topic " + d.topic + ": " + d.key.replace(/_/g, ' ') + "</h2>" 
-  					+ "<div id='size'>Percentage of corpus: " + d.scaledsize * 100 + "<br /><br /></div>" 
-					+ "<div id='size'>Topic Rank: " + d.rank[0] + "<br /><br /></div>" 
+  					+ "<div id='size'>Percentage of corpus: " + d.scaledsize + "<br /><br /></div>" 
+					+ "<div id='size'>Topic Rank: " + d.rank + "<br /><br /></div>" 
   					+ "<div id='topwords'>Top words: " + d.topwords.split(' ').join(', ') + "...</div>";
   
       
