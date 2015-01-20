@@ -6,7 +6,7 @@
 		"imports" : [
 			"1.1.1.1.2.2.2.multilingualism_and_world_englishes_plus",
 			"1.1.3.3.4.4.4.institutional_context_of_writing_instruction",
-			"1.1.3.3.4.6.6.theory_of_critical_pedagogy",
+			"1.1.3.3.4.6.6.criticism_of_or_on_critical_pedagogy",
 			"1.1.1.1.2.2.7.literacy_and_literacies",
 			"2.2.2.4.5.7.8.story_and_narrative",
 			"2.3.4.5.7.9.12.poetics_and_semiotics",
@@ -21,6 +21,7 @@
 			"1.4.6.7.9.16.29.rhetorical_affordances_of_the_Web",
 			"2.2.2.2.3.3.31.writing_with_and_about_religious_texts"
 		],
+		"rank" : 6,
 		"scaledsize" : 3.8,
 		"topwords" : "don participants people study time interview research things experience work didn make lot interviews experiences questions feel ve kind ",
 		"weights" : [
@@ -48,7 +49,7 @@
 		"size" : 23,
 		"imports" : [
 			"1.1.1.1.1.1.1.process_reflections",
-			"1.1.3.3.4.6.6.theory_of_critical_pedagogy",
+			"1.1.3.3.4.6.6.criticism_of_or_on_critical_pedagogy",
 			"2.2.2.2.6.8.9.identity_and_cultures",
 			"2.2.5.6.8.10.16.political_rhetoric_mostly_of_the_US",
 			"1.1.1.1.1.1.1.students_in_the_classroom",
@@ -56,6 +57,7 @@
 			"2.3.4.5.7.9.12.theory_of_language_mostly",
 			"1.4.6.7.9.11.18.textual_technique_and_effects_on_audiences"
 		],
+		"rank" : 28,
 		"scaledsize" : 1.3,
 		"topwords" : "english language cultural american culture linguistic languages al native spanish speakers arabic international university arab world immigrants esl speaking ",
 		"weights" : [
@@ -74,6 +76,7 @@
 		"topic" : 5,
 		"size" : 6,
 		"imports" : [],
+		"rank" : 54,
 		"scaledsize" : 0.3,
 		"topwords" : "food fat cooking quilt janette organic recipe recipes lu guan foods outlaw meat ms eating people quilting weight op ",
 		"weights" : [
@@ -86,7 +89,7 @@
 		"size" : 44,
 		"imports" : [
 			"1.1.1.1.1.1.1.process_reflections",
-			"1.1.3.3.4.6.6.theory_of_critical_pedagogy",
+			"1.1.3.3.4.6.6.criticism_of_or_on_critical_pedagogy",
 			"2.2.5.6.8.10.14.capitalism_Marxism_and_the_university",
 			"1.1.3.3.4.6.6.history_of_Composition",
 			"1.1.1.1.1.1.20.writing_center_tutorials",
@@ -99,6 +102,7 @@
 			"1.4.6.7.9.16.29.rhetorical_affordances_of_the_Web",
 			"1.1.3.3.4.4.4.preparation_for_college"
 		],
+		"rank" : 17,
 		"scaledsize" : 2.5,
 		"topwords" : "faculty writing english university program college composition teaching courses year graduate programs academic department time students education professional research ",
 		"weights" : [
@@ -122,7 +126,7 @@
 		"topic" : 7,
 		"size" : 24,
 		"imports" : [
-			"1.1.3.3.4.6.6.theory_of_critical_pedagogy",
+			"1.1.3.3.4.6.6.criticism_of_or_on_critical_pedagogy",
 			"2.2.2.2.6.8.9.identity_and_cultures",
 			"2.2.5.6.8.10.14.capitalism_Marxism_and_the_university",
 			"2.3.4.5.7.9.12.close-reading_Classical_rhetoric",
@@ -130,6 +134,7 @@
 			"2.3.4.5.10.12.19.18th_and_19th_centuries",
 			"1.1.1.1.1.1.1.students_in_the_classroom"
 		],
+		"rank" : 27,
 		"scaledsize" : 1.3,
 		"topwords" : "black white african american race racial south americans people racism blacks rights whites negro slavery whiteness power community civil ",
 		"weights" : [
@@ -143,7 +148,7 @@
 		]
 	},
 	{
-		"name" : "1.1.3.3.4.6.6.theory_of_critical_pedagogy",
+		"name" : "1.1.3.3.4.6.6.criticism_of_or_on_critical_pedagogy",
 		"topic" : 8,
 		"size" : 84,
 		"imports" : [
@@ -170,6 +175,7 @@
 			"2.3.4.5.7.9.12.theory_of_language_mostly",
 			"1.4.6.7.9.11.18.textual_technique_and_effects_on_audiences"
 		],
+		"rank" : 2,
 		"scaledsize" : 4.8,
 		"topwords" : "students composition teaching pedagogy classroom teachers critical work student teacher theory studies knowledge learning ways education academic pedagogical practice ",
 		"weights" : [
@@ -203,10 +209,11 @@
 		"size" : 31,
 		"imports" : [
 			"1.1.1.1.1.1.1.process_reflections",
-			"1.1.3.3.4.6.6.theory_of_critical_pedagogy",
+			"1.1.3.3.4.6.6.criticism_of_or_on_critical_pedagogy",
 			"2.2.2.4.5.7.8.story_and_narrative",
 			"1.1.1.1.1.1.1.students_in_the_classroom"
 		],
+		"rank" : 22,
 		"scaledsize" : 1.8,
 		"topwords" : "literacy school reading writing family children community life social practices read stories home study literate literacies research language lives ",
 		"weights" : [
@@ -222,7 +229,7 @@
 		"size" : 72,
 		"imports" : [
 			"1.1.1.1.1.1.1.process_reflections",
-			"1.1.3.3.4.6.6.theory_of_critical_pedagogy",
+			"1.1.3.3.4.6.6.criticism_of_or_on_critical_pedagogy",
 			"1.1.1.1.2.2.7.literacy_and_literacies",
 			"2.2.2.2.3.5.10.workplace_and_administrative_histories",
 			"2.3.4.5.7.9.12.poetics_and_semiotics",
@@ -235,6 +242,7 @@
 			"2.2.2.4.5.7.13.film_criticism_plus_Japan",
 			"1.4.6.7.9.11.18.textual_technique_and_effects_on_audiences"
 		],
+		"rank" : 5,
 		"scaledsize" : 4.1,
 		"topwords" : "life back story time day man people mother don love home good young father stories family long left person ",
 		"weights" : [
@@ -268,6 +276,7 @@
 			"2.2.2.2.6.14.25.medicine_disability_the_body_and_identity",
 			"2.2.2.2.3.3.31.writing_with_and_about_religious_texts"
 		],
+		"rank" : 24,
 		"scaledsize" : 1.7,
 		"topwords" : "women woman gender feminist men female male sex sexual feminine feminism public work gay rhetorical issues masculine girls domestic ",
 		"weights" : [
@@ -293,6 +302,7 @@
 			"1.1.3.3.4.4.4.preparation_for_college",
 			"1.4.6.7.11.13.22.technical_communication_mostly"
 		],
+		"rank" : 10,
 		"scaledsize" : 3.4,
 		"topwords" : "work time letter working place years letters business people make part job made money workers personal fact long article ",
 		"weights" : [
@@ -310,6 +320,7 @@
 		"imports" : [
 			"2.3.4.5.7.9.12.close-reading_Classical_rhetoric"
 		],
+		"rank" : 55,
 		"scaledsize" : 0.3,
 		"topwords" : "di cicero la de il che lucretius medieval calvino del si isocrates le una roman ovid ad orator da ",
 		"weights" : [
@@ -322,7 +333,7 @@
 		"size" : 56,
 		"imports" : [
 			"1.1.1.1.1.1.1.process_reflections",
-			"1.1.3.3.4.6.6.theory_of_critical_pedagogy",
+			"1.1.3.3.4.6.6.criticism_of_or_on_critical_pedagogy",
 			"2.2.2.4.5.7.8.story_and_narrative",
 			"2.2.2.2.6.8.9.identity_and_cultures",
 			"2.2.2.4.5.7.13.performance",
@@ -337,6 +348,7 @@
 			"1.4.6.7.9.16.29.rhetorical_affordances_of_the_Web",
 			"2.3.4.5.7.9.12.theory_of_language_mostly"
 		],
+		"rank" : 11,
 		"scaledsize" : 3.2,
 		"topwords" : "world experience memory life human art poetry work time process meaning voice language nature metaphors words mind form sense ",
 		"weights" : [
@@ -365,7 +377,7 @@
 			"1.1.1.1.1.1.1.process_reflections",
 			"1.1.1.1.2.2.2.multilingualism_and_world_englishes_plus",
 			"2.2.2.2.3.5.5.race_and_white-black_power_struggles",
-			"1.1.3.3.4.6.6.theory_of_critical_pedagogy",
+			"1.1.3.3.4.6.6.criticism_of_or_on_critical_pedagogy",
 			"2.2.2.4.5.7.8.story_and_narrative",
 			"2.2.2.2.6.8.9.women_acting_rhetorically",
 			"2.3.4.5.7.9.12.poetics_and_semiotics",
@@ -382,6 +394,7 @@
 			"2.3.4.5.7.9.12.theory_of_language_mostly",
 			"2.2.2.2.3.3.31.writing_with_and_about_religious_texts"
 		],
+		"rank" : 4,
 		"scaledsize" : 4.2,
 		"topwords" : "identity social discourse cultural ways culture power space discourses people practices community identities understanding language personal place construction difference ",
 		"weights" : [
@@ -418,6 +431,7 @@
 			"2.3.4.5.7.9.12.close-reading_Classical_rhetoric",
 			"2.3.4.5.10.12.19.18th_and_19th_centuries"
 		],
+		"rank" : 38,
 		"scaledsize" : 0.9,
 		"topwords" : "performance music humor play culture hip sports hop sport popular audience song football baseball york rap team black press ",
 		"weights" : [
@@ -436,7 +450,7 @@
 		"imports" : [
 			"1.1.3.3.4.4.4.institutional_context_of_writing_instruction",
 			"2.2.2.2.3.5.5.race_and_white-black_power_struggles",
-			"1.1.3.3.4.6.6.theory_of_critical_pedagogy",
+			"1.1.3.3.4.6.6.criticism_of_or_on_critical_pedagogy",
 			"2.2.2.2.6.8.9.women_acting_rhetorically",
 			"2.2.2.2.3.5.10.workplace_and_administrative_histories",
 			"2.2.2.2.6.8.9.identity_and_cultures",
@@ -458,6 +472,7 @@
 			"2.2.5.6.8.10.14.international_conflict_and_negotiation",
 			"2.2.5.6.8.10.32.civic_discourse_plus_china_and_japan_plus"
 		],
+		"rank" : 8,
 		"scaledsize" : 3.6,
 		"topwords" : "public political social economic movement rhetoric society politics power cultural labor university state democracy change action democratic rhetorical class ",
 		"weights" : [
@@ -491,7 +506,7 @@
 		"topic" : 18,
 		"size" : 25,
 		"imports" : [
-			"1.1.3.3.4.6.6.theory_of_critical_pedagogy",
+			"1.1.3.3.4.6.6.criticism_of_or_on_critical_pedagogy",
 			"2.3.4.5.7.9.12.poetics_and_semiotics",
 			"2.2.2.2.6.8.9.identity_and_cultures",
 			"2.2.5.6.8.10.14.capitalism_Marxism_and_the_university",
@@ -499,6 +514,7 @@
 			"1.4.6.7.9.16.29.rhetorical_affordances_of_the_Web",
 			"2.3.4.5.7.9.12.theory_of_language_mostly"
 		],
+		"rank" : 26,
 		"scaledsize" : 1.4,
 		"topwords" : "work subject plagiarism body foucault sense ethics heidegger question place subjectivity postmodern text ethical desire chapter derrida time relation ",
 		"weights" : [
@@ -520,6 +536,7 @@
 			"1.4.6.7.9.11.28.genre_and_discipline",
 			"2.3.4.5.7.9.12.theory_of_language_mostly"
 		],
+		"rank" : 39,
 		"scaledsize" : 0.9,
 		"topwords" : "science scientific environmental nature human natural scientists ecological wilderness environment world discourse public population ecology social conservation species management ",
 		"weights" : [
@@ -537,6 +554,7 @@
 			"2.2.5.6.8.10.16.political_rhetoric_mostly_of_the_US",
 			"2.3.4.5.7.9.12.theory_of_language_mostly"
 		],
+		"rank" : 32,
 		"scaledsize" : 1.1,
 		"topwords" : "law legal court state justice case act rights political states supreme decision cases constitution argument trial arguments debate laws ",
 		"weights" : [
@@ -551,7 +569,7 @@
 		"size" : 49,
 		"imports" : [
 			"2.2.2.2.3.5.5.race_and_white-black_power_struggles",
-			"1.1.3.3.4.6.6.theory_of_critical_pedagogy",
+			"1.1.3.3.4.6.6.criticism_of_or_on_critical_pedagogy",
 			"2.2.2.2.3.3.11.Italian_and_Latin_language",
 			"2.3.4.5.7.9.12.poetics_and_semiotics",
 			"2.2.2.2.6.8.9.identity_and_cultures",
@@ -566,6 +584,7 @@
 			"2.2.2.2.3.3.31.writing_with_and_about_religious_texts",
 			"1.4.6.7.9.11.18.textual_technique_and_effects_on_audiences"
 		],
+		"rank" : 15,
 		"scaledsize" : 2.8,
 		"topwords" : "rhetoric rhetorical audience aristotle ethos speech argument classical theory plato communication persuasion invention speaking rhetor arguments good truth philosophy ",
 		"weights" : [
@@ -591,13 +610,14 @@
 		"topic" : 23,
 		"size" : 28,
 		"imports" : [
-			"1.1.3.3.4.6.6.theory_of_critical_pedagogy",
+			"1.1.3.3.4.6.6.criticism_of_or_on_critical_pedagogy",
 			"2.2.2.4.5.7.8.story_and_narrative",
 			"2.3.4.5.7.9.12.poetics_and_semiotics",
 			"2.3.4.5.7.9.12.close-reading_Classical_rhetoric",
 			"1.1.1.1.1.1.1.students_in_the_classroom",
 			"2.3.4.5.7.9.12.theory_of_language_mostly"
 		],
+		"rank" : 25,
 		"scaledsize" : 1.6,
 		"topwords" : "narrative story reading reader readers text literature fiction narratives stories literary book character characters audience read narrator texts author ",
 		"weights" : [
@@ -616,7 +636,7 @@
 		"imports" : [
 			"1.1.1.1.1.1.1.process_reflections",
 			"1.1.3.3.4.4.4.institutional_context_of_writing_instruction",
-			"1.1.3.3.4.6.6.theory_of_critical_pedagogy",
+			"1.1.3.3.4.6.6.criticism_of_or_on_critical_pedagogy",
 			"2.2.2.4.5.7.8.story_and_narrative",
 			"2.3.4.5.7.9.12.poetics_and_semiotics",
 			"2.2.2.2.6.8.9.identity_and_cultures",
@@ -626,6 +646,7 @@
 			"1.1.1.1.12.15.26.writing_process__formal_and_cognitive_studies",
 			"1.4.6.7.9.11.18.textual_technique_and_effects_on_audiences"
 		],
+		"rank" : 12,
 		"scaledsize" : 3.1,
 		"topwords" : "writing composition writers writer write english essay creative process written language reading work personal essays instruction basic style college ",
 		"weights" : [
@@ -647,6 +668,7 @@
 		"topic" : 26,
 		"size" : 14,
 		"imports" : [],
+		"rank" : 40,
 		"scaledsize" : 0.8,
 		"topwords" : "burke terms motives symbolic identification term action act form order language human sense nature scene social arendt principle pp ",
 		"weights" : [
@@ -664,6 +686,7 @@
 			"2.3.4.5.7.9.12.theory_of_language_mostly",
 			"1.4.6.7.9.11.18.textual_technique_and_effects_on_audiences"
 		],
+		"rank" : 30,
 		"scaledsize" : 1.2,
 		"topwords" : "visual images image figure verbal art space body meaning photographs representations pictures picture representation objects multimodal photograph elements media ",
 		"weights" : [
@@ -692,6 +715,7 @@
 			"2.2.5.6.8.10.14.international_conflict_and_negotiation",
 			"2.2.5.6.8.10.32.civic_discourse_plus_china_and_japan_plus"
 		],
+		"rank" : 16,
 		"scaledsize" : 2.7,
 		"topwords" : "war president american public states united bush national military america speech political nation government people policy press carter york ",
 		"weights" : [
@@ -718,6 +742,7 @@
 			"2.3.4.5.7.9.12.close-reading_Classical_rhetoric",
 			"2.3.4.5.10.12.19.18th_and_19th_centuries"
 		],
+		"rank" : 41,
 		"scaledsize" : 0.7,
 		"topwords" : "english england de letter century letters chomsky early sublime hyperbole style renaissance london elizabeth eighteenth texts scrapbooks language scrapbook ",
 		"weights" : [
@@ -733,11 +758,12 @@
 		"imports" : [
 			"1.1.1.1.1.1.1.process_reflections",
 			"1.1.3.3.4.4.4.institutional_context_of_writing_instruction",
-			"1.1.3.3.4.6.6.theory_of_critical_pedagogy",
+			"1.1.3.3.4.6.6.criticism_of_or_on_critical_pedagogy",
 			"1.1.1.1.1.1.1.students_in_the_classroom",
 			"1.1.1.1.12.15.26.writing_process__formal_and_cognitive_studies",
 			"1.4.6.7.9.16.29.rhetorical_affordances_of_the_Web"
 		],
+		"rank" : 36,
 		"scaledsize" : 1,
 		"topwords" : "writing center tutors tutor student tutoring centers paper session questions tutorial conference writer sessions writers peer work training owl ",
 		"weights" : [
@@ -756,7 +782,7 @@
 		"imports" : [
 			"1.1.3.3.4.4.4.institutional_context_of_writing_instruction",
 			"2.2.2.2.3.5.5.race_and_white-black_power_struggles",
-			"1.1.3.3.4.6.6.theory_of_critical_pedagogy",
+			"1.1.3.3.4.6.6.criticism_of_or_on_critical_pedagogy",
 			"2.2.2.2.6.8.9.women_acting_rhetorically",
 			"2.3.4.5.7.9.12.poetics_and_semiotics",
 			"2.2.2.4.5.7.13.performance",
@@ -770,6 +796,7 @@
 			"2.2.2.2.3.3.31.writing_with_and_about_religious_texts",
 			"2.2.5.6.8.10.32.civic_discourse_plus_china_and_japan_plus"
 		],
+		"rank" : 13,
 		"scaledsize" : 3,
 		"topwords" : "history century american early rhetoric historical nineteenth society life york moral university great education public press literature men america ",
 		"weights" : [
@@ -799,7 +826,7 @@
 			"1.1.1.1.2.2.2.multilingualism_and_world_englishes_plus",
 			"1.1.3.3.4.4.4.institutional_context_of_writing_instruction",
 			"2.2.2.2.3.5.5.race_and_white-black_power_struggles",
-			"1.1.3.3.4.6.6.theory_of_critical_pedagogy",
+			"1.1.3.3.4.6.6.criticism_of_or_on_critical_pedagogy",
 			"1.1.1.1.2.2.7.literacy_and_literacies",
 			"2.2.2.4.5.7.8.story_and_narrative",
 			"2.2.2.2.6.8.9.women_acting_rhetorically",
@@ -818,6 +845,7 @@
 			"2.3.4.5.7.9.12.theory_of_language_mostly",
 			"1.4.6.7.9.11.18.textual_technique_and_effects_on_audiences"
 		],
+		"rank" : 1,
 		"scaledsize" : 5.4,
 		"topwords" : "students writing student class teacher classroom teachers paper instructor research study instructors semester college assignment classes write teaching learning ",
 		"weights" : [
@@ -853,6 +881,7 @@
 			"2.2.2.4.5.7.8.story_and_narrative",
 			"2.2.5.6.8.10.14.capitalism_Marxism_and_the_university"
 		],
+		"rank" : 45,
 		"scaledsize" : 0.6,
 		"topwords" : "film films japanese documentary media video japan cinema audience popular scene movie cultural camera festival camp man euro foreign ",
 		"weights" : [
@@ -865,6 +894,7 @@
 		"topic" : 34,
 		"size" : 9,
 		"imports" : [],
+		"rank" : 46,
 		"scaledsize" : 0.5,
 		"topwords" : "university state museum texas writing jewish board kairos editorial archives archive history jews visitors composition holocaust maps exhibit map ",
 		"weights" : [
@@ -878,7 +908,7 @@
 		"imports" : [
 			"1.1.1.1.1.1.1.process_reflections",
 			"1.1.3.3.4.4.4.institutional_context_of_writing_instruction",
-			"1.1.3.3.4.6.6.theory_of_critical_pedagogy",
+			"1.1.3.3.4.6.6.criticism_of_or_on_critical_pedagogy",
 			"2.2.2.2.3.5.10.workplace_and_administrative_histories",
 			"2.2.2.2.6.8.9.identity_and_cultures",
 			"2.2.5.6.8.10.14.capitalism_Marxism_and_the_university",
@@ -893,6 +923,7 @@
 			"2.2.2.2.3.3.15.military_plus_theory_of_technical_communication",
 			"1.4.6.7.9.11.18.textual_technique_and_effects_on_audiences"
 		],
+		"rank" : 7,
 		"scaledsize" : 3.7,
 		"topwords" : "community research learning project process service work group members development study professional knowledge organization practice team information communities activities ",
 		"weights" : [
@@ -924,6 +955,7 @@
 			"2.2.5.6.8.10.16.political_rhetoric_mostly_of_the_US",
 			"1.1.1.1.12.15.26.quantifying_written_products"
 		],
+		"rank" : 31,
 		"scaledsize" : 1.2,
 		"topwords" : "media news campaign political public blog obama television people issues communication coverage http analysis internet blogs post audience clinton ",
 		"weights" : [
@@ -941,6 +973,7 @@
 			"1.1.1.1.1.1.1.process_reflections",
 			"2.2.2.2.6.8.9.identity_and_cultures"
 		],
+		"rank" : 44,
 		"scaledsize" : 0.6,
 		"topwords" : "indian american native indians land cherokee people indigenous white government cultural nation culture sovereignty history americans tribal states rhetorical ",
 		"weights" : [
@@ -956,6 +989,7 @@
 			"1.4.6.7.11.13.22.community_engagement",
 			"1.1.1.1.12.15.26.quantifying_written_products"
 		],
+		"rank" : 34,
 		"scaledsize" : 1,
 		"topwords" : "health medical care medicine patient disease patients illness autism depression aids clinical mental people treatment body physicians doctors nursing ",
 		"weights" : [
@@ -980,6 +1014,7 @@
 			"1.4.6.7.9.16.29.rhetorical_affordances_of_the_Web",
 			"1.4.6.7.9.11.18.textual_technique_and_effects_on_audiences"
 		],
+		"rank" : 14,
 		"scaledsize" : 2.9,
 		"topwords" : "writing language english students study writers feedback esl process learning comments reading revision research grammar knowledge sentence learners write ",
 		"weights" : [
@@ -1002,13 +1037,14 @@
 		"size" : 17,
 		"imports" : [
 			"1.1.1.1.1.1.1.process_reflections",
-			"1.1.3.3.4.6.6.theory_of_critical_pedagogy",
+			"1.1.3.3.4.6.6.criticism_of_or_on_critical_pedagogy",
 			"1.1.1.1.1.1.1.students_in_the_classroom",
 			"1.4.6.7.11.13.22.community_engagement",
 			"1.1.1.1.12.15.26.writing_process__formal_and_cognitive_studies",
 			"1.1.1.1.12.15.26.quantifying_written_products",
 			"1.4.6.7.9.16.29.rhetorical_affordances_of_the_Web"
 		],
+		"rank" : 35,
 		"scaledsize" : 1,
 		"topwords" : "online peer group students discussion face response interaction collaborative participants social communication computer learning peers groups discussions collaboration feedback ",
 		"weights" : [
@@ -1035,6 +1071,7 @@
 			"1.1.3.3.4.4.4.preparation_for_college",
 			"1.4.6.7.9.11.18.textual_technique_and_effects_on_audiences"
 		],
+		"rank" : 19,
 		"scaledsize" : 2.1,
 		"topwords" : "test study table results scores group research assessment significant score data participants scale social differences total groups message number ",
 		"weights" : [
@@ -1057,6 +1094,7 @@
 			"2.2.2.2.6.8.9.identity_and_cultures",
 			"2.2.5.6.8.10.14.capitalism_Marxism_and_the_university"
 		],
+		"rank" : 47,
 		"scaledsize" : 0.5,
 		"topwords" : "disability violence children birth baby deaf child control sanger body mother women disabilities bodies disabled rhetoric welfare mothers people ",
 		"weights" : [
@@ -1071,13 +1109,14 @@
 		"size" : 31,
 		"imports" : [
 			"1.1.3.3.4.4.4.institutional_context_of_writing_instruction",
-			"1.1.3.3.4.6.6.theory_of_critical_pedagogy",
+			"1.1.3.3.4.6.6.criticism_of_or_on_critical_pedagogy",
 			"2.2.2.2.3.3.15.science_writing_and_environmentalism",
 			"1.1.1.1.1.1.1.students_in_the_classroom",
 			"1.4.6.7.11.13.22.community_engagement",
 			"1.1.1.1.12.15.26.writing_process__formal_and_cognitive_studies",
 			"1.4.6.7.9.11.18.textual_technique_and_effects_on_audiences"
 		],
+		"rank" : 23,
 		"scaledsize" : 1.7,
 		"topwords" : "research genre genres study knowledge field writing discourse studies academic rhetorical disciplinary activity analysis social practices professional work discipline ",
 		"weights" : [
@@ -1097,7 +1136,7 @@
 		"imports" : [
 			"1.1.1.1.1.1.1.process_reflections",
 			"1.1.3.3.4.4.4.institutional_context_of_writing_instruction",
-			"1.1.3.3.4.6.6.theory_of_critical_pedagogy",
+			"1.1.3.3.4.6.6.criticism_of_or_on_critical_pedagogy",
 			"2.3.4.5.7.9.12.poetics_and_semiotics",
 			"2.2.2.2.6.8.9.identity_and_cultures",
 			"2.2.5.6.8.10.14.capitalism_Marxism_and_the_university",
@@ -1113,6 +1152,7 @@
 			"1.4.6.7.11.13.22.technical_communication_mostly",
 			"1.4.6.7.9.11.18.textual_technique_and_effects_on_audiences"
 		],
+		"rank" : 18,
 		"scaledsize" : 2.3,
 		"topwords" : "technology web computer online digital technologies computers site information internet media design users page technological access sites software http ",
 		"weights" : [
@@ -1148,6 +1188,7 @@
 			"1.4.6.7.11.13.22.community_engagement",
 			"1.1.1.1.12.15.26.quantifying_written_products"
 		],
+		"rank" : 21,
 		"scaledsize" : 1.8,
 		"topwords" : "education school students college teachers educational schools learning higher high student instruction teaching teacher skills colleges educators university state ",
 		"weights" : [
@@ -1167,6 +1208,7 @@
 		"imports" : [
 			"1.4.6.7.9.16.29.rhetorical_affordances_of_the_Web"
 		],
+		"rank" : 42,
 		"scaledsize" : 0.7,
 		"topwords" : "game review book games author editing authors reviews authorship video editors articles journals editor publishing books published article reviewers ",
 		"weights" : [
@@ -1179,7 +1221,7 @@
 		"size" : 76,
 		"imports" : [
 			"1.1.1.1.2.2.2.multilingualism_and_world_englishes_plus",
-			"1.1.3.3.4.6.6.theory_of_critical_pedagogy",
+			"1.1.3.3.4.6.6.criticism_of_or_on_critical_pedagogy",
 			"2.3.4.5.7.9.12.poetics_and_semiotics",
 			"2.2.2.2.6.8.9.identity_and_cultures",
 			"2.2.5.6.8.10.14.capitalism_Marxism_and_the_university",
@@ -1195,6 +1237,7 @@
 			"1.4.6.7.9.16.29.rhetorical_affordances_of_the_Web",
 			"1.4.6.7.9.11.18.textual_technique_and_effects_on_audiences"
 		],
+		"rank" : 3,
 		"scaledsize" : 4.3,
 		"topwords" : "language theory discourse meaning knowledge system fact point power metaphor question view speech human case social model problem sense ",
 		"weights" : [
@@ -1226,6 +1269,7 @@
 			"1.4.6.7.9.16.29.rhetorical_affordances_of_the_Web",
 			"1.4.6.7.9.11.18.textual_technique_and_effects_on_audiences"
 		],
+		"rank" : 29,
 		"scaledsize" : 1.3,
 		"topwords" : "technical communication design business information company user system users documents participants workplace management engineering research task technology product work ",
 		"weights" : [
@@ -1242,6 +1286,7 @@
 		"imports" : [
 			"2.2.5.6.8.10.14.capitalism_Marxism_and_the_university"
 		],
+		"rank" : 51,
 		"scaledsize" : 0.4,
 		"topwords" : "de la el en los se del las por mexican es con una lo su para mexico como al ",
 		"weights" : [
@@ -1257,6 +1302,7 @@
 			"1.4.6.7.11.13.22.community_engagement",
 			"1.4.6.7.9.11.18.textual_technique_and_effects_on_audiences"
 		],
+		"rank" : 52,
 		"scaledsize" : 0.4,
 		"topwords" : "public risk space nuclear report safety information relevance doe welsh missile image environmental wales topic soviet plant fernald controversy ",
 		"weights" : [
@@ -1274,6 +1320,7 @@
 			"2.2.5.6.8.10.16.political_rhetoric_mostly_of_the_US",
 			"2.3.4.5.10.12.19.18th_and_19th_centuries"
 		],
+		"rank" : 43,
 		"scaledsize" : 0.6,
 		"topwords" : "peace conflict korea korean south colonial people political trade power israeli india lyceum national witch world witches north international ",
 		"weights" : [
@@ -1293,6 +1340,7 @@
 			"2.3.4.5.7.9.12.close-reading_Classical_rhetoric",
 			"2.3.4.5.10.12.19.18th_and_19th_centuries"
 		],
+		"rank" : 37,
 		"scaledsize" : 0.9,
 		"topwords" : "god church religious christian bible faith religion spiritual christ prayer jesus catholic life biblical pastor community congregation sermon sacred ",
 		"weights" : [
@@ -1312,6 +1360,7 @@
 			"2.2.5.6.8.10.16.political_rhetoric_mostly_of_the_US",
 			"2.3.4.5.10.12.19.18th_and_19th_centuries"
 		],
+		"rank" : 50,
 		"scaledsize" : 0.5,
 		"topwords" : "chinese china apology discourse mao vico garcia zedong hong humphrey kong cultural western utterance council people taiwanese mr political ",
 		"weights" : [
@@ -1326,7 +1375,7 @@
 		"size" : 62,
 		"imports" : [
 			"1.1.1.1.2.2.2.multilingualism_and_world_englishes_plus",
-			"1.1.3.3.4.6.6.theory_of_critical_pedagogy",
+			"1.1.3.3.4.6.6.criticism_of_or_on_critical_pedagogy",
 			"2.2.2.4.5.7.8.story_and_narrative",
 			"2.3.4.5.7.9.12.close-reading_Classical_rhetoric",
 			"1.1.3.3.4.6.6.history_of_Composition",
@@ -1341,6 +1390,7 @@
 			"1.4.6.7.11.13.22.technical_communication_mostly",
 			"2.2.2.2.3.3.15.military_plus_theory_of_technical_communication"
 		],
+		"rank" : 9,
 		"scaledsize" : 3.5,
 		"topwords" : "text analysis texts information discourse readers chapter study reader rhetorical content audience context specific reading data based features types ",
 		"weights" : [
