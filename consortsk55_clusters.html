@@ -44,9 +44,10 @@ path.arc {
 	</div>
 	<div id="intro">
 		<p>Branches were produced by agglomerative clustering in R using cor() and hclust(), and the resulting tree cut to highlight major divisions. The central node (labeled '1of1') contains all topics; each subsequent branch point represents a point of convenience for considering groups of topics, with the first number being an arbitrary name and the second indicating the number of groups formed by that cut.</p>
+		<p>Five topics are excluded from this figure because they were especially non-content-bearing, e.g. topics comprised of non-words formed by unsuccessful character recognition during the scanning process.</p>
 	</div>
 	<div id="figure"></div>
-	<div id="details">Hover over any item for more details. TO DO: Add function to capture total contribution of groups, not just individual topics.</div>
+	<div id="details">Hover over any item for more details.</div>
 
 <!-- Set up the figure -->
 <script type="text/javascript">
@@ -55,7 +56,7 @@ var w = 700,
     h = 700,
     rx = (w / 2) - (h / 100),
     ry = (h / 2) - (h / 100),
-    ryinit = (h / 2) + (h / 6),
+    ryinit = (h / 2) + (h / 100),
     m0,
     rotate = 0;
 
@@ -84,7 +85,7 @@ vis.append("svg:path")
 // Bring in the data and draw the figure
 d3.json("consortsk55_clusters_nobads.json", function(json) {
   var nodes = cluster.nodes(json);
-console.log(nodes);
+// console.log(nodes);
   var link = vis.selectAll("path.link")
       .data(cluster.links(nodes))
     .enter().append("svg:path")
@@ -104,7 +105,9 @@ console.log(nodes);
   var colorScale = d3.scale.quantize()
 					 .range(colorbrewer.Greens[7])
 					 .domain([0, d3.max(nodes, function(d) { return d.children ? 0 : d.size; })]);
-  console.log(colorScale.domain());
+//   console.log(colorScale.domain());
+
+  node.attr("id", function(d) { return d.name; });
 
   node.append("svg:circle")
       .attr("r", 4)
@@ -126,6 +129,8 @@ console.log(nodes);
       })
       .text(function(d) { return d.name; })
       .on("mouseover", mouseover);
+
+    
       
 });
 
@@ -196,15 +201,48 @@ function dot(a, b) {
 }
 
 function mouseover(d) {
-	  console.log(d);
-	  console.log("scaledsize: " + d.scaledsize);
-	  console.log("topwords: " + d.topwords[0]);
-  
-	  var deets = document.getElementById("details");
+//	  console.log(d);
+//	  console.log("scaledsize: " + d.scaledsize);
+//	  console.log("topwords: " + d.topwords[0]);
+	var deets = document.getElementById("details");
+	  
+	if(d.children) {
+		deets.innerHTML = "<h2>Cluster " + 	d.name[0].replace(/'of'/g, ' of ') + "</h2>"
+			+ "<div id='size'>Percentage of corpus: " + (100*sum_children(d)).toFixed(2) + "</div>";
+		
+	} else {
+
 	  deets.innerHTML = "<h2>Topic " + d.topic + ": " + d.name[0].replace(/_/g, ' ') + "</h2>" 
-						+ "<div id='size'>Percentage of corpus: " + d.scaledsize[0] * 100 + "<br /><br /></div>" 
+						+ "<div id='size'>Percentage of corpus: " + (100*d.scaledsize[0]).toFixed(2) + "<br /><br /></div>" 
 						+ "<div id='size'>Topic Rank: " + d.rank[0] + "<br /><br /></div>" 
 						+ "<div id='topwords'>Top words: " + d.topwords[0].split(' ').join(', ') + "...</div>";
+	}
+}
+
+function sum_children(d, depth, sumsofar) {
+	if(!depth) { var depth = 0; }		// set a default value if none is given
+	if(!sumsofar) { var sumsofar = 0; } // set a default value if none is given
+
+	if(depth === 0) {
+		console.log("Descendants of " + d.name + ": ");
+	} else {
+		console.log("At depth " + depth + ": " + d.name);
+	}
+	
+	if(d.children) { 					// proceed recursively through children
+		depth++;
+		d.children.forEach(function(x) { 
+// 			console.log(x);
+			sumsofar = sum_children(x, depth, sumsofar);
+		});
+
+	} else {				// when we get to the bottom, increase sum and return
+// 		console.log("Size: " + d.scaledsize[0]);
+		return(sumsofar + d.scaledsize[0]);
+	}
+	
+// 	console.log("I just looked at " + d.name + " and the sum is " + sumsofar);
+	return(sumsofar);		// if we're not at bottom, just return sum as-is
 }
 
 
