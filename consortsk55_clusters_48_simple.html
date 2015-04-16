@@ -212,7 +212,9 @@ function mouseover(d) {
 	if(d.children) {
 		deets.innerHTML = "<h2>Cluster " + 	d.name[0].replace(/of/g, ' of ') + "</h2>"
 			+ "<div id='size'>Percentage of corpus: " + (100*sum_children(d)).toFixed(2) + "</div>";
-		console.log(d);
+// 		console.log(d);
+// 		TO DO: Highlight the selected cluster on mouseover and return to default on mouseout
+		
 		
 	} else {
 
