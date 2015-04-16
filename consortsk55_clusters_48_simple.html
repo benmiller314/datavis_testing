@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <script type="text/javascript" src="../d3/d3.js"></script>
+    <script type="text/javascript" src="../d3/lib/colorbrewer/colorbrewer.js"></script>
+<!--     <script type="text/javascript" src="../d3/d3.layout.js"></script> -->
+<!--     <script type="text/javascript" src="packages.js"></script> -->
+<!--     <link type="text/css" rel="stylesheet" href="style.css"/> -->
+<!-- Bring in the stylesheets -->
+	<link type="text/css" rel="stylesheet" href="../d3/bostock_style.css"/>
+	<link type="text/css" rel="stylesheet" href="../d3/fredheim_style.css"/>
+    <link type="text/css" rel="stylesheet" href="layout.css"/>
+    <style type="text/css"> <!-- for rapid changes -->
+
+path.arc {
+  cursor: move;
+  fill: #fff;
+}
+
+.node circle {
+/*   fill: #fff; */
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.node {
+  font-size: 16px;
+}
+
+.link {
+  fill: none;
+  stroke: #000;
+  stroke-width: 3px;
+}
+
+    </style>
+  </head>
+  <body>
+	<!-- Set up the page structure -->
+	<div id="title">
+		<h1>Hierarchical similarity of topics in Consortium dissertations</h1>
+		<h2>55 total topics, less 7 excluded topics</h2>
+	</div>
+	<div id="intro">
+		<p>Branches were produced by agglomerative clustering in R using cor() and hclust(), and the resulting tree cut to highlight major divisions. The central node (labeled '1of1') contains all topics; each subsequent branch point represents a point of convenience for considering groups of topics, with the first number being an arbitrary name and the second indicating the number of groups formed by that cut.</p>
+		<p>Seven topics are excluded from this figure because they were especially non-content-bearing, e.g. topics comprised of non-words formed by unsuccessful character recognition during the scanning process, or topics indicating merely a non-English language.</p>
+	</div>
+	<div id="figure"></div>
+	<div id="details">Hover over any item for more details.</div>
+	<div id="promo">Explore this model: <h3>http://ow.ly/J2dVL</h3></div>
+	
+<!-- Set up the figure -->
+<script type="text/javascript">
+
+var w = 700,
+    h = 700,
+    rx = (w / 2) - (h / 100),
+    ry = (h / 2) - (h / 100),
+    ryinit = (h / 2) + (h / 100),
+    m0,
+    rotate = 0;
+
+var cluster = d3.layout.cluster()
+    .size([360, ry - 120])
+    .sort(null);
+
+var diagonal = d3.svg.diagonal.radial()
+    .projection(function(d) { return [d.y, d.x / 180 * Math.PI]; });
+
+var svg = d3.select("#figure").append("div")
+    .style("width", w + "px")
+    .style("height", w + "px");
+
+var vis = svg.append("svg:svg")
+    .attr("width", w)
+    .attr("height", w)
+  .append("svg:g")
+    .attr("transform", "translate(" + rx + "," + ryinit + ")");
+
+vis.append("svg:path")
+    .attr("class", "arc")
+    .attr("d", d3.svg.arc().innerRadius(ry - 120).outerRadius(ry).startAngle(0).endAngle(2 * Math.PI))
+    .on("mousedown", mousedown);
+
+// Bring in the data and draw the figure
+d3.json("consortsk55_clusters_48.json", function(json) {
+  var nodes = cluster.nodes(json);
+// console.log(nodes);
+  var link = vis.selectAll("path.link")
+      .data(cluster.links(nodes))
+    .enter().append("svg:path")
+      .attr("class", "link")
+      .attr("d", diagonal);
+
+  var node = vis.selectAll("g.node")
+      .data(nodes)
+    .enter().append("svg:g")
+      .attr("class", "node")
+      .attr("transform", function(d) { return "rotate(" + (d.x - 90) + ")translate(" + d.y + ")"; })
+
+  var rScale = d3.scale.linear()
+                     .domain([0, d3.max(nodes, function(d) { return d.size > 3 ? 3 : d.size ; })])
+                     .range([3, 8]);
+
+  var colorScale = d3.scale.quantize()
+					 .range(colorbrewer.Greens[7])
+					 .domain([0, d3.max(nodes, function(d) { return d.children ? 0 : d.size; })]);
+//   console.log(colorScale.domain());
+
+  node.attr("id", function(d) { return d.name; });
+
+  node.append("svg:circle")
+      .attr("r", 4)
+      .attr("fill", function(d) { return (d.children ? "#ffffff" : colorScale(d.scaledsize) );})
+      .attr("opacity", function(d) { return(d.children ? 0 : 1)})
+      .attr("class", function(d) { return (d.children ? "invisible-" + d.key : null) });
+
+  node.append("svg:text")
+      .attr("dx", function(d) { return d.x < 180 ? 8 : -8; })
+      .attr("dy", ".31em")
+      .attr("text-anchor", function(d) { 
+      		if (d.children) { return "middle"; } else return d.x < 180 ? "start" : "end"; })
+      .attr("transform", function(d) { 
+      		if (d.children) { 
+      			if (d.children.children) { return (d.x < 90 || d.x > 270) ? "rotate(90)" : "rotate(-90)" ; }
+      			else return d.x < 180 ? null : "rotate(180)"; 
+      		} else { return d.x < 180 ? null : "rotate(180)"; }
+      	})
+      .attr("opacity", function(d) {
+			return (d.children ? 0 : 1);
+      })
+      .text(function(d) { return d.name; })
+      .on("mouseover", mouseover);
+
+    
+      
+});
+
+d3.select(window)
+    .on("mousemove", mousemove)
+    .on("mouseup", mouseup);
+
+function mouse(e) {
+  return [e.pageX - rx, e.pageY - ry];
+}
+
+function mousedown() {
+  m0 = mouse(d3.event);
+  d3.event.preventDefault();
+}
+
+function mousemove() {
+  if (m0) {
+    var m1 = mouse(d3.event),
+        dm = Math.atan2(cross(m0, m1), dot(m0, m1)) * 180 / Math.PI,
+        tx = "translate3d(0," + (ry - rx) + "px,0)rotate3d(0,0,0," + dm + "deg)translate3d(0," + (rx - ry) + "px,0)";
+    svg
+        .style("-moz-transform", tx)
+        .style("-ms-transform", tx)
+        .style("-webkit-transform", tx);
+  }
+}
+
+function mouseup() {
+  if (m0) {
+    var m1 = mouse(d3.event),
+        dm = Math.atan2(cross(m0, m1), dot(m0, m1)) * 180 / Math.PI,
+        tx = "rotate3d(0,0,0,0deg)";
+
+    rotate += dm;
+    if (rotate > 360) rotate -= 360;
+    else if (rotate < 0) rotate += 360;
+    m0 = null;
+
+    svg
+        .style("-moz-transform", tx)
+        .style("-ms-transform", tx)
+        .style("-webkit-transform", tx);
+
+    vis
+        .attr("transform", "translate(" + rx + "," + ryinit + ")rotate(" + rotate + ")")
+      .selectAll("g.node text")
+        .attr("dx", function(d) { return (d.x + rotate) % 360 < 180 ? 8 : -8; })
+        .attr("text-anchor", function(d) { if (d.children) { return "middle"; } else { return (d.x + rotate) % 360 < 180 ? "start" : "end"; } })
+        .attr("transform", function(d) { 
+				if (d.children) { 
+					if (d.children.children) { return (d.x + rotate < 90 || d.x + rotate > 270) ? "rotate(90)" : "rotate(-90)" ; }
+					else return (d.x + rotate) % 360 < 180 ? null : "rotate(180)"; 
+				} else { return (d.x + rotate) % 360 < 180 ? null : "rotate(180)"; }
+      		})
+        .attr("opacity", function(d) {
+			if (!(d.children)) { return 1; } else return (d.parent && d.parent.children.length == 1) ? 0 : 1;
+			})
+  }
+}
+
+function cross(a, b) {
+  return a[0] * b[1] - a[1] * b[0];
+}
+
+function dot(a, b) {
+  return a[0] * b[0] + a[1] * b[1];
+}
+
+function mouseover(d) {
+//	  console.log(d);
+//	  console.log("scaledsize: " + d.scaledsize);
+//	  console.log("topwords: " + d.topwords[0]);
+	var deets = document.getElementById("details");
+	  
+	if(d.children) {
+		deets.innerHTML = "<h2>Cluster " + 	d.name[0].replace(/of/g, ' of ') + "</h2>"
+			+ "<div id='size'>Percentage of corpus: " + (100*sum_children(d)).toFixed(2) + "</div>";
+		console.log(d);
+		
+	} else {
+
+	  deets.innerHTML = "<h2>Topic " + d.topic + ": " + d.name[0].replace(/_/g, ' ') + "</h2>" 
+						+ "<div id='size'>Percentage of corpus: " + (100*d.scaledsize[0]).toFixed(2) + "<br /><br /></div>" 
+						+ "<div id='size'>Topic Rank: " + d.rank[0] + "<br /><br /></div>" 
+						+ "<div id='topwords'>Top words: " + d.topwords[0].split(' ').join(', ') + "...</div>";
+	}
+}
+
+function sum_children(d, depth, sumsofar) {
+	if(!depth) { var depth = 0; }		// set a default value if none is given
+	if(!sumsofar) { var sumsofar = 0; } // set a default value if none is given
+
+// 	if(depth === 0) {
+// 		console.log("Descendants of " + d.name + ": ");
+// 	} else {
+// 		console.log("At depth " + depth + ": " + d.name);
+// 	}
+	
+	if(d.children) { 					// proceed recursively through children
+		depth++;
+		d.children.forEach(function(x) { 
+// 			console.log(x);
+			sumsofar = sum_children(x, depth, sumsofar);
+		});
+
+	} else {				// when we get to the bottom, increase sum and return
+// 		console.log("Size: " + d.scaledsize[0]);
+		return(sumsofar + d.scaledsize[0]);
+	}
+	
+// 	console.log("I just looked at " + d.name + " and the sum is " + sumsofar);
+	return(sumsofar);		// if we're not at bottom, just return sum as-is
+}
+
+
+    </script>
+  </body>
+</html>
