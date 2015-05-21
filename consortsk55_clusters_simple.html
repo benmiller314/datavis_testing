@@ -113,7 +113,8 @@ d3.json("consortsk55_clusters_nobads.json", function(json) {
   node.append("svg:circle")
       .attr("r", 4)
       .attr("fill", function(d) { return (d.children ? "#ffffff" : colorScale(d.scaledsize) );})
-      .attr("opacity", function(d) { return(d.children ? 0 : 1)});
+      .attr("opacity", function(d) { return(d.children ? 0 : 1)})
+      .attr("class", function(d) { return (d.children ? "invisible-" + d.key : null) });
 
   node.append("svg:text")
       .attr("dx", function(d) { return d.x < 180 ? 8 : -8; })

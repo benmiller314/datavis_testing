@@ -20,7 +20,7 @@
 	<h2>55 total topics, less 5 excluded topics</h2>
 </div>
 <div id="intro">
-	<p>Branches were produced by agglomerative clustering in R using cor() and hclust(), and the resulting tree cut to highlight major divisions.</p>
+	<p>Branches were produced by agglomerative clustering in R using cor() and hclust(), and the resulting tree cut to highlight major divisions. The central node (labeled '1of1') contains all topics; each subsequent branch point represents a point of convenience for considering groups of topics, with the first number being an arbitrary name and the second indicating the number of groups formed by that cut.</p>
 		<p>Five topics are excluded from this figure because they were especially non-content-bearing, e.g. topics comprised of non-words formed by unsuccessful character recognition during the scanning process.</p>
 		<p>To be linked in this figure, two topics must each contribute at least <span id="level">12</span> percent to the same dissertation,
 	   and such a pairing must occur at least <span id="min">4</span> times.</p>
@@ -30,8 +30,6 @@
 </div>
 <div id="figure"></div>
 <div id="details">Hover over any item for more details.</div>
-<div id="promo">Explore this model: <h3>http://ow.ly/J2dVL</h3></div>
-
 
 <!-- Set up the figure -->
 <script type="text/javascript">
@@ -105,7 +103,7 @@ var drawit = d3.json(datafile, function(error, classes) {		// TO DO: what if thi
       .attr("dy", ".31em")
       .attr("text-anchor", function(d) { return d.x < 180 ? "start" : "end"; })
       .attr("transform", function(d) { return d.x < 180 ? null : "rotate(180)"; })
-      .text(function(d) { return d.key; })
+      .text(function(d) { return d.topwords; })
       .on("mouseover", mouseover)
       .on("mouseout", mouseout);
       

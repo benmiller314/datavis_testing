@@ -24,7 +24,7 @@ h2 {
   margin: 0 0 0.5em 0;
 }
 
-h1, h2 {					
+h1, h2, h3 {					
   text-rendering: optimizeLegibility;
 }
 
@@ -47,14 +47,29 @@ div#details {
   left: 725px;
   float: right;
   max-width: 250px;
-  top:225px;
+  top:325px;
   word-wrap: break-word;
 /*   border: 1px solid #DEDEDE;		// for testing only  */
 }
 
+div#promo {
+  position: absolute;
+  left: 725px;
+  float: right;
+  max-width: 250px;
+  top:225px;
+  border: 1px black solid;
+  padding-top: 10px;
+  width:  100%;
+  text-align: center;
+
+/*   border: 1px solid #DEDEDE;		// for testing only  */
+}
+
+
 div#inputs {
 	position:absolute;
-	top:150px;
+	top:650px;
 	left:725px; 
 	font-size:11px; 
 	max-width:250px;

@@ -3,9 +3,14 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
     <script type="text/javascript" src="../d3/d3.js"></script>
+    <script type="text/javascript" src="../d3/lib/colorbrewer/colorbrewer.js"></script>
 <!--     <script type="text/javascript" src="../d3/d3.layout.js"></script> -->
 <!--     <script type="text/javascript" src="packages.js"></script> -->
-    <link type="text/css" rel="stylesheet" href="style.css"/>
+<!--     <link type="text/css" rel="stylesheet" href="style.css"/> -->
+<!-- Bring in the stylesheets -->
+	<link type="text/css" rel="stylesheet" href="../d3/bostock_style.css"/>
+	<link type="text/css" rel="stylesheet" href="../d3/fredheim_style.css"/>
+    <link type="text/css" rel="stylesheet" href="layout.css"/>
     <style type="text/css">
 
 path.arc {
@@ -14,41 +19,44 @@ path.arc {
 }
 
 .node circle {
-  fill: #fff;
+/*   fill: #fff; */
   stroke: steelblue;
   stroke-width: 1.5px;
 }
 
 .node {
   font-size: 13px;
-  pointer-events: none;
 }
 
 .link {
   fill: none;
-  stroke: #ccc;
+  stroke: #777;
   stroke-width: 1.5px;
 }
 
     </style>
   </head>
   <body>
-    <div id="body">
-      <div id="footer" style="max-width:30%; float:right;">
-        1754 full-text Consortium dissertations, 
-        55 topics
-        <div class="hint">
-          drag the ring to rotate
-        </div>
-      </div>
-    </div>
-    <script type="text/javascript">
+	<!-- Set up the page structure -->
+	<div id="title">
+		<h1>Hierarchical similarity of topics in Consortium dissertations</h1>
+		<h2>55 total topics, less 5 excluded topics</h2>
+	</div>
+	<div id="intro">
+		<p>Branches were produced by agglomerative clustering in R using cor() and hclust(), and the resulting tree cut to highlight major divisions. The central node (labeled '1of1') contains all topics; each subsequent branch point represents a point of convenience for considering groups of topics, with the first number being an arbitrary name and the second indicating the number of groups formed by that cut.</p>
+		<p>Five topics are excluded from this figure because they were especially non-content-bearing, e.g. topics comprised of non-words formed by unsuccessful character recognition during the scanning process.</p>
+	</div>
+	<div id="figure"></div>
+	<div id="details">Hover over any item for more details.</div>
 
-var w = 1280,
+<!-- Set up the figure -->
+<script type="text/javascript">
+
+var w = 700,
     h = 700,
     rx = (w / 2) - (h / 100),
     ry = (h / 2) - (h / 100),
-    ryinit = (h / 2) + (h / 6),
+    ryinit = (h / 2) + (h / 100),
     m0,
     rotate = 0;
 
@@ -59,7 +67,7 @@ var cluster = d3.layout.cluster()
 var diagonal = d3.svg.diagonal.radial()
     .projection(function(d) { return [d.y, d.x / 180 * Math.PI]; });
 
-var svg = d3.select("#body").append("div")
+var svg = d3.select("#figure").append("div")
     .style("width", w + "px")
     .style("height", w + "px");
 
@@ -74,9 +82,10 @@ vis.append("svg:path")
     .attr("d", d3.svg.arc().innerRadius(ry - 120).outerRadius(ry).startAngle(0).endAngle(2 * Math.PI))
     .on("mousedown", mousedown);
 
-d3.json("consortsk55_clusters_topwords.json", function(json) {
+// Bring in the data and draw the figure
+d3.json("consortsk55_clusters_nobads.json", function(json) {
   var nodes = cluster.nodes(json);
-
+// console.log(nodes);
   var link = vis.selectAll("path.link")
       .data(cluster.links(nodes))
     .enter().append("svg:path")
@@ -93,15 +102,35 @@ d3.json("consortsk55_clusters_topwords.json", function(json) {
                      .domain([0, d3.max(nodes, function(d) { return d.size > 3 ? 3 : d.size ; })])
                      .range([3, 8]);
 
+  var colorScale = d3.scale.quantize()
+					 .range(colorbrewer.Greens[7])
+					 .domain([0, d3.max(nodes, function(d) { return d.children ? 0 : d.size; })]);
+//   console.log(colorScale.domain());
+
+  node.attr("id", function(d) { return d.name; });
+
   node.append("svg:circle")
-      .attr("r", 4);
-      
+      .attr("r", 4)
+      .attr("fill", function(d) { return (d.children) ? "#ffffff" : colorScale(d.scaledsize); })
+
   node.append("svg:text")
       .attr("dx", function(d) { return d.x < 180 ? 8 : -8; })
       .attr("dy", ".31em")
-      .attr("text-anchor", function(d) { return d.x < 180 ? "start" : "end"; })
-      .attr("transform", function(d) { return d.x < 180 ? null : "rotate(180)"; })
-      .text(function(d) { return d.name; });
+      .attr("text-anchor", function(d) { 
+      		if (d.children) { return "middle"; } else return d.x < 180 ? "start" : "end"; })
+      .attr("transform", function(d) { 
+      		if (d.children) { 
+      			if (d.children.children) { return (d.x < 90 || d.x > 270) ? "rotate(90)" : "rotate(-90)" ; }
+      			else return d.x < 180 ? null : "rotate(180)"; 
+      		} else { return d.x < 180 ? null : "rotate(180)"; }
+      	})
+      .attr("opacity", function(d) {
+			if (!(d.children)) { return 1; } else return (d.parent && d.parent.children.length == 1) ? 0 : 1;
+      })
+      .text(function(d) { return d.topwords; })
+      .on("mouseover", mouseover);
+
+    
       
 });
 
@@ -150,8 +179,16 @@ function mouseup() {
         .attr("transform", "translate(" + rx + "," + ryinit + ")rotate(" + rotate + ")")
       .selectAll("g.node text")
         .attr("dx", function(d) { return (d.x + rotate) % 360 < 180 ? 8 : -8; })
-        .attr("text-anchor", function(d) { return (d.x + rotate) % 360 < 180 ? "start" : "end"; })
-        .attr("transform", function(d) { return (d.x + rotate) % 360 < 180 ? null : "rotate(180)"; });
+        .attr("text-anchor", function(d) { if (d.children) { return "middle"; } else { return (d.x + rotate) % 360 < 180 ? "start" : "end"; } })
+        .attr("transform", function(d) { 
+				if (d.children) { 
+					if (d.children.children) { return (d.x + rotate < 90 || d.x + rotate > 270) ? "rotate(90)" : "rotate(-90)" ; }
+					else return (d.x + rotate) % 360 < 180 ? null : "rotate(180)"; 
+				} else { return (d.x + rotate) % 360 < 180 ? null : "rotate(180)"; }
+      		})
+        .attr("opacity", function(d) {
+			if (!(d.children)) { return 1; } else return (d.parent && d.parent.children.length == 1) ? 0 : 1;
+			})
   }
 }
 
@@ -162,6 +199,52 @@ function cross(a, b) {
 function dot(a, b) {
   return a[0] * b[0] + a[1] * b[1];
 }
+
+function mouseover(d) {
+//	  console.log(d);
+//	  console.log("scaledsize: " + d.scaledsize);
+//	  console.log("topwords: " + d.topwords[0]);
+	var deets = document.getElementById("details");
+	  
+	if(d.children) {
+		deets.innerHTML = "<h2>Cluster " + 	d.name[0].replace(/of/g, ' of ') + "</h2>"
+			+ "<div id='size'>Percentage of corpus: " + (100*sum_children(d)).toFixed(2) + "</div>";
+		
+	} else {
+
+	  deets.innerHTML = "<h2>Topic " + d.topic + ": " + d.name[0].replace(/_/g, ' ') + "</h2>" 
+						+ "<div id='size'>Percentage of corpus: " + (100*d.scaledsize[0]).toFixed(2) + "<br /><br /></div>" 
+						+ "<div id='size'>Topic Rank: " + d.rank[0] + "<br /><br /></div>" 
+						+ "<div id='topwords'>Top words: " + d.topwords[0].split(' ').join(', ') + "...</div>";
+	}
+}
+
+function sum_children(d, depth, sumsofar) {
+	if(!depth) { var depth = 0; }		// set a default value if none is given
+	if(!sumsofar) { var sumsofar = 0; } // set a default value if none is given
+
+// 	if(depth === 0) {
+// 		console.log("Descendants of " + d.name + ": ");
+// 	} else {
+// 		console.log("At depth " + depth + ": " + d.name);
+// 	}
+	
+	if(d.children) { 					// proceed recursively through children
+		depth++;
+		d.children.forEach(function(x) { 
+// 			console.log(x);
+			sumsofar = sum_children(x, depth, sumsofar);
+		});
+
+	} else {				// when we get to the bottom, increase sum and return
+// 		console.log("Size: " + d.scaledsize[0]);
+		return(sumsofar + d.scaledsize[0]);
+	}
+	
+// 	console.log("I just looked at " + d.name + " and the sum is " + sumsofar);
+	return(sumsofar);		// if we're not at bottom, just return sum as-is
+}
+
 
     </script>
   </body>

@@ -1,0 +1,1384 @@
+[
+	{
+		"name" : "1.1.1.1.1.process_reflections",
+		"topic" : 1,
+		"size" : 67.34,
+		"imports" : [
+			"1.1.1.1.12.multilingualism_and_world_englishes_plus",
+			"1.1.3.5.16.institutional_context_of_writing_instruction",
+			"1.1.3.5.18.pedagogical_theory",
+			"1.1.1.1.12.literacy_and_literacies",
+			"2.2.4.7.19.story_and_narrative",
+			"2.3.5.8.21.poetics_and_semiotics",
+			"2.2.4.6.20.identity_construction",
+			"1.1.3.5.18.history_of_Composition",
+			"1.1.1.1.9.writing_center_tutorials",
+			"1.1.1.1.1.students_in_the_classroom",
+			"1.4.6.2.10.community_engagement_and_collaboration",
+			"2.2.4.6.17.Native_American_history_and_rhetoric",
+			"1.1.1.3.13.writing_process__formal_and_cognitive_studies",
+			"1.1.1.3.13.online_learning_and_collaboration",
+			"1.4.6.11.14.rhetorical_affordances_of_the_Web",
+			"2.3.5.10.6.writing_with_and_about_religious_texts"
+		],
+		"rank" : 6,
+		"scaledsize" : 3.84,
+		"topwords" : "don participants people study time interview research things experience work didn make lot interviews experiences questions feel ve kind ",
+		"weights" : [
+			9,
+			5,
+			20,
+			15,
+			12,
+			4,
+			12,
+			13,
+			11,
+			66,
+			12,
+			4,
+			17,
+			6,
+			6,
+			5
+		]
+	},
+	{
+		"name" : "1.1.1.1.12.multilingualism_and_world_englishes_plus",
+		"topic" : 3,
+		"size" : 22.97,
+		"imports" : [
+			"1.1.1.1.1.process_reflections",
+			"1.1.3.5.18.pedagogical_theory",
+			"2.2.4.6.20.identity_construction",
+			"2.2.2.9.5.political_rhetoric_mostly_of_the_US",
+			"1.1.1.1.1.students_in_the_classroom",
+			"1.1.1.3.13.writing_process__formal_and_cognitive_studies",
+			"2.3.5.8.21.philosophy_of_language",
+			"1.4.6.11.7.comprehension_and_usability"
+		],
+		"rank" : 28,
+		"scaledsize" : 1.31,
+		"topwords" : "english language cultural american culture linguistic languages al native spanish speakers arabic international university arab world immigrants esl speaking ",
+		"weights" : [
+			5,
+			11,
+			6,
+			14,
+			9,
+			4,
+			7,
+			9
+		]
+	},
+	{
+		"name" : "2.2.2.4.15.food_and_cooking",
+		"topic" : 5,
+		"size" : 5.68,
+		"imports" : [],
+		"rank" : 54,
+		"scaledsize" : 0.32,
+		"topwords" : "food fat cooking quilt janette organic recipe recipes lu guan foods outlaw meat ms eating people quilting weight op ",
+		"weights" : [
+			"NA"
+		]
+	},
+	{
+		"name" : "1.1.3.5.16.institutional_context_of_writing_instruction",
+		"topic" : 6,
+		"size" : 43.62,
+		"imports" : [
+			"1.1.1.1.1.process_reflections",
+			"1.1.3.5.18.pedagogical_theory",
+			"2.2.2.9.3.capitalism_Marxism_and_activism",
+			"1.1.3.5.18.history_of_Composition",
+			"1.1.1.1.9.writing_center_tutorials",
+			"2.3.5.10.8.18th_and_19th_centuries",
+			"1.1.1.1.1.students_in_the_classroom",
+			"1.4.6.2.10.community_engagement_and_collaboration",
+			"1.1.1.3.13.writing_process__formal_and_cognitive_studies",
+			"1.1.1.3.13.quantifying_written_products",
+			"1.4.6.11.7.genre_and_discipline",
+			"1.4.6.11.14.rhetorical_affordances_of_the_Web",
+			"1.1.3.5.16.preparation_for_college"
+		],
+		"rank" : 17,
+		"scaledsize" : 2.49,
+		"topwords" : "faculty writing english university program college composition teaching courses year graduate programs academic department time students education professional research ",
+		"weights" : [
+			23,
+			8,
+			14,
+			5,
+			5,
+			20,
+			15,
+			4,
+			6,
+			4,
+			9,
+			13,
+			5
+		]
+	},
+	{
+		"name" : "2.2.4.6.17.race_and_white-black_power_struggles",
+		"topic" : 7,
+		"size" : 23.54,
+		"imports" : [
+			"1.1.3.5.18.pedagogical_theory",
+			"2.2.4.6.20.identity_construction",
+			"2.2.2.9.3.capitalism_Marxism_and_activism",
+			"2.3.5.8.21.close-reading_Classical_rhetoric",
+			"2.2.2.9.5.political_rhetoric_mostly_of_the_US",
+			"2.3.5.10.8.18th_and_19th_centuries",
+			"1.1.1.1.1.students_in_the_classroom"
+		],
+		"rank" : 27,
+		"scaledsize" : 1.34,
+		"topwords" : "black white african american race racial south americans people racism blacks rights whites negro slavery whiteness power community civil ",
+		"weights" : [
+			9,
+			11,
+			5,
+			4,
+			11,
+			9,
+			5
+		]
+	},
+	{
+		"name" : "1.1.3.5.18.pedagogical_theory",
+		"topic" : 8,
+		"size" : 83.6,
+		"imports" : [
+			"1.1.1.1.1.process_reflections",
+			"1.1.1.1.12.multilingualism_and_world_englishes_plus",
+			"1.1.3.5.16.institutional_context_of_writing_instruction",
+			"2.2.4.6.17.race_and_white-black_power_struggles",
+			"1.1.1.1.12.literacy_and_literacies",
+			"2.2.4.7.19.story_and_narrative",
+			"2.3.5.8.21.poetics_and_semiotics",
+			"2.2.4.6.20.identity_construction",
+			"2.2.2.9.3.capitalism_Marxism_and_activism",
+			"2.3.5.8.21.invention_plus_postmodernist_theories_of_meaning",
+			"2.3.5.8.21.close-reading_Classical_rhetoric",
+			"2.2.4.7.19.narrative_theory_plus_fandom_plus_readers_as_writers",
+			"1.1.3.5.18.history_of_Composition",
+			"1.1.1.1.9.writing_center_tutorials",
+			"2.3.5.10.8.18th_and_19th_centuries",
+			"1.1.1.1.1.students_in_the_classroom",
+			"1.4.6.2.10.community_engagement_and_collaboration",
+			"1.1.1.3.13.online_learning_and_collaboration",
+			"1.4.6.11.7.genre_and_discipline",
+			"1.4.6.11.14.rhetorical_affordances_of_the_Web",
+			"2.3.5.8.21.philosophy_of_language",
+			"1.4.6.11.7.comprehension_and_usability"
+		],
+		"rank" : 2,
+		"scaledsize" : 4.77,
+		"topwords" : "students composition teaching pedagogy classroom teachers critical work student teacher theory studies knowledge learning ways education academic pedagogical practice ",
+		"weights" : [
+			6,
+			8,
+			7,
+			51,
+			20,
+			6,
+			12,
+			6,
+			47,
+			5,
+			4,
+			65,
+			17,
+			7,
+			9,
+			16,
+			14,
+			5,
+			20,
+			5,
+			23,
+			9
+		]
+	},
+	{
+		"name" : "1.1.1.1.12.literacy_and_literacies",
+		"topic" : 9,
+		"size" : 30.98,
+		"imports" : [
+			"1.1.1.1.1.process_reflections",
+			"1.1.3.5.18.pedagogical_theory",
+			"2.2.4.7.19.story_and_narrative",
+			"1.1.1.1.1.students_in_the_classroom"
+		],
+		"rank" : 22,
+		"scaledsize" : 1.77,
+		"topwords" : "literacy school reading writing family children community life social practices read stories home study literate literacies research language lives ",
+		"weights" : [
+			10,
+			10,
+			15,
+			6
+		]
+	},
+	{
+		"name" : "2.2.4.7.19.story_and_narrative",
+		"topic" : 10,
+		"size" : 72.5,
+		"imports" : [
+			"1.1.1.1.1.process_reflections",
+			"1.1.3.5.18.pedagogical_theory",
+			"1.1.1.1.12.literacy_and_literacies",
+			"2.2.2.4.15.workplace_and_organizational_histories",
+			"2.3.5.8.21.poetics_and_semiotics",
+			"2.2.4.6.20.identity_construction",
+			"2.2.4.7.2.performance",
+			"2.2.4.7.19.narrative_theory_plus_fandom_plus_readers_as_writers",
+			"1.1.3.5.18.history_of_Composition",
+			"1.4.6.11.7.visual_rhetoric",
+			"1.1.1.1.1.students_in_the_classroom",
+			"2.2.4.7.2.film_criticism_plus_Japan",
+			"1.4.6.11.7.comprehension_and_usability"
+		],
+		"rank" : 5,
+		"scaledsize" : 4.13,
+		"topwords" : "life back story time day man people mother don love home good young father stories family long left person ",
+		"weights" : [
+			5,
+			21,
+			5,
+			5,
+			7,
+			6,
+			4,
+			14,
+			9,
+			5,
+			12,
+			8,
+			10
+		]
+	},
+	{
+		"name" : "2.2.4.6.20.women_acting_rhetorically",
+		"topic" : 11,
+		"size" : 30.58,
+		"imports" : [
+			"2.2.4.6.20.identity_construction",
+			"2.2.4.7.2.performance",
+			"2.2.2.9.3.capitalism_Marxism_and_activism",
+			"2.2.2.9.5.political_rhetoric_mostly_of_the_US",
+			"2.3.5.10.8.18th_and_19th_centuries",
+			"1.1.1.1.1.students_in_the_classroom",
+			"2.2.2.9.5.political_discourse",
+			"2.2.2.4.11.medicine_disability_the_body_and_identity",
+			"2.3.5.10.6.writing_with_and_about_religious_texts"
+		],
+		"rank" : 24,
+		"scaledsize" : 1.74,
+		"topwords" : "women woman gender feminist men female male sex sexual feminine feminism public work gay rhetorical issues masculine girls domestic ",
+		"weights" : [
+			12,
+			7,
+			7,
+			7,
+			15,
+			6,
+			4,
+			4,
+			5
+		]
+	},
+	{
+		"name" : "2.2.2.4.15.workplace_and_organizational_histories",
+		"topic" : 12,
+		"size" : 59.02,
+		"imports" : [
+			"2.2.4.7.19.story_and_narrative",
+			"2.2.2.9.3.capitalism_Marxism_and_activism",
+			"1.4.6.2.10.community_engagement_and_collaboration",
+			"1.1.3.5.16.preparation_for_college",
+			"1.4.6.2.10.technical_communication_mostly"
+		],
+		"rank" : 10,
+		"scaledsize" : 3.36,
+		"topwords" : "work time letter working place years letters business people make part job made money workers personal fact long article ",
+		"weights" : [
+			7,
+			7,
+			6,
+			4,
+			5
+		]
+	},
+	{
+		"name" : "2.3.5.8.21.poetics_and_semiotics",
+		"topic" : 14,
+		"size" : 56.09,
+		"imports" : [
+			"1.1.1.1.1.process_reflections",
+			"1.1.3.5.18.pedagogical_theory",
+			"2.2.4.7.19.story_and_narrative",
+			"2.2.4.6.20.identity_construction",
+			"2.2.4.7.2.performance",
+			"2.3.5.8.21.invention_plus_postmodernist_theories_of_meaning",
+			"2.3.5.8.21.close-reading_Classical_rhetoric",
+			"2.2.4.7.19.narrative_theory_plus_fandom_plus_readers_as_writers",
+			"1.1.3.5.18.history_of_Composition",
+			"1.4.6.11.7.visual_rhetoric",
+			"2.3.5.10.8.silence_plus_England",
+			"2.3.5.10.8.18th_and_19th_centuries",
+			"1.1.1.1.1.students_in_the_classroom",
+			"1.4.6.11.14.rhetorical_affordances_of_the_Web",
+			"2.3.5.8.21.philosophy_of_language"
+		],
+		"rank" : 11,
+		"scaledsize" : 3.2,
+		"topwords" : "world experience memory life human art poetry work time process meaning voice language nature metaphors words mind form sense ",
+		"weights" : [
+			9,
+			6,
+			17,
+			19,
+			6,
+			9,
+			7,
+			5,
+			4,
+			4,
+			6,
+			27,
+			4,
+			7,
+			21
+		]
+	},
+	{
+		"name" : "2.2.4.6.20.identity_construction",
+		"topic" : 15,
+		"size" : 73.86,
+		"imports" : [
+			"1.1.1.1.1.process_reflections",
+			"1.1.1.1.12.multilingualism_and_world_englishes_plus",
+			"2.2.4.6.17.race_and_white-black_power_struggles",
+			"1.1.3.5.18.pedagogical_theory",
+			"2.2.4.7.19.story_and_narrative",
+			"2.2.4.6.20.women_acting_rhetorically",
+			"2.3.5.8.21.poetics_and_semiotics",
+			"2.2.2.9.3.capitalism_Marxism_and_activism",
+			"2.3.5.8.21.invention_plus_postmodernist_theories_of_meaning",
+			"2.3.5.8.21.close-reading_Classical_rhetoric",
+			"1.1.3.5.18.history_of_Composition",
+			"2.2.2.9.5.political_rhetoric_mostly_of_the_US",
+			"1.1.1.1.1.students_in_the_classroom",
+			"1.4.6.2.10.community_engagement_and_collaboration",
+			"2.2.4.6.17.Native_American_history_and_rhetoric",
+			"2.2.2.4.11.medicine_disability_the_body_and_identity",
+			"1.4.6.11.14.rhetorical_affordances_of_the_Web",
+			"2.3.5.8.21.philosophy_of_language",
+			"2.3.5.10.6.writing_with_and_about_religious_texts"
+		],
+		"rank" : 4,
+		"scaledsize" : 4.21,
+		"topwords" : "identity social discourse cultural ways culture power space discourses people practices community identities understanding language personal place construction difference ",
+		"weights" : [
+			20,
+			8,
+			6,
+			6,
+			6,
+			24,
+			6,
+			4,
+			4,
+			4,
+			5,
+			4,
+			12,
+			11,
+			11,
+			51,
+			5,
+			12,
+			9
+		]
+	},
+	{
+		"name" : "2.2.4.7.2.performance",
+		"topic" : 16,
+		"size" : 16.04,
+		"imports" : [
+			"2.2.4.7.19.story_and_narrative",
+			"2.2.4.6.20.women_acting_rhetorically",
+			"2.3.5.8.21.poetics_and_semiotics",
+			"2.2.2.9.3.capitalism_Marxism_and_activism",
+			"2.3.5.8.21.close-reading_Classical_rhetoric",
+			"2.3.5.10.8.18th_and_19th_centuries"
+		],
+		"rank" : 38,
+		"scaledsize" : 0.91,
+		"topwords" : "performance music humor play culture hip sports hop sport popular audience song football baseball york rap team black press ",
+		"weights" : [
+			4,
+			4,
+			4,
+			5,
+			7,
+			6
+		]
+	},
+	{
+		"name" : "2.2.2.9.3.capitalism_Marxism_and_activism",
+		"topic" : 17,
+		"size" : 62.5,
+		"imports" : [
+			"1.1.3.5.16.institutional_context_of_writing_instruction",
+			"2.2.4.6.17.race_and_white-black_power_struggles",
+			"1.1.3.5.18.pedagogical_theory",
+			"2.2.4.6.20.women_acting_rhetorically",
+			"2.2.2.4.15.workplace_and_organizational_histories",
+			"2.2.4.6.20.identity_construction",
+			"2.2.4.7.2.performance",
+			"2.3.5.8.21.invention_plus_postmodernist_theories_of_meaning",
+			"2.2.2.4.4.science_writing_and_environmentalism",
+			"2.2.2.9.5.court_decisions_and_ramifications",
+			"2.3.5.8.21.close-reading_Classical_rhetoric",
+			"2.2.2.9.5.political_rhetoric_mostly_of_the_US",
+			"2.3.5.10.8.18th_and_19th_centuries",
+			"2.2.4.7.2.film_criticism_plus_Japan",
+			"1.4.6.2.10.community_engagement_and_collaboration",
+			"2.2.2.9.5.political_discourse",
+			"2.2.2.4.11.medicine_disability_the_body_and_identity",
+			"1.4.6.11.14.rhetorical_affordances_of_the_Web",
+			"1.1.3.5.16.preparation_for_college",
+			"2.3.5.8.21.philosophy_of_language",
+			"2.2.2.9.3.international_conflict_and_negotiation",
+			"2.2.2.9.5.civic_discourse_plus_china_and_japan_plus"
+		],
+		"rank" : 8,
+		"scaledsize" : 3.56,
+		"topwords" : "public political social economic movement rhetoric society politics power cultural labor university state democracy change action democratic rhetorical class ",
+		"weights" : [
+			4,
+			8,
+			4,
+			10,
+			10,
+			13,
+			5,
+			6,
+			4,
+			4,
+			4,
+			6,
+			9,
+			6,
+			6,
+			4,
+			8,
+			5,
+			20,
+			7,
+			7,
+			20,
+			4
+		]
+	},
+	{
+		"name" : "2.3.5.8.21.invention_plus_postmodernist_theories_of_meaning",
+		"topic" : 18,
+		"size" : 25.14,
+		"imports" : [
+			"1.1.3.5.18.pedagogical_theory",
+			"2.3.5.8.21.poetics_and_semiotics",
+			"2.2.4.6.20.identity_construction",
+			"2.2.2.9.3.capitalism_Marxism_and_activism",
+			"2.3.5.8.21.close-reading_Classical_rhetoric",
+			"1.4.6.11.14.rhetorical_affordances_of_the_Web",
+			"2.3.5.8.21.philosophy_of_language"
+		],
+		"rank" : 26,
+		"scaledsize" : 1.43,
+		"topwords" : "work subject plagiarism body foucault sense ethics heidegger question place subjectivity postmodern text ethical desire chapter derrida time relation ",
+		"weights" : [
+			13,
+			5,
+			20,
+			6,
+			17,
+			8,
+			4
+		]
+	},
+	{
+		"name" : "2.2.2.4.4.science_writing_and_environmentalism",
+		"topic" : 19,
+		"size" : 15.77,
+		"imports" : [
+			"2.2.2.9.3.capitalism_Marxism_and_activism",
+			"1.4.6.11.7.genre_and_discipline",
+			"2.3.5.8.21.philosophy_of_language"
+		],
+		"rank" : 39,
+		"scaledsize" : 0.9,
+		"topwords" : "science scientific environmental nature human natural scientists ecological wilderness environment world discourse public population ecology social conservation species management ",
+		"weights" : [
+			5,
+			4,
+			8
+		]
+	},
+	{
+		"name" : "2.2.2.9.5.court_decisions_and_ramifications",
+		"topic" : 20,
+		"size" : 19.07,
+		"imports" : [
+			"2.2.2.9.3.capitalism_Marxism_and_activism",
+			"2.2.2.9.5.political_rhetoric_mostly_of_the_US",
+			"2.3.5.8.21.philosophy_of_language"
+		],
+		"rank" : 32,
+		"scaledsize" : 1.09,
+		"topwords" : "law legal court state justice case act rights political states supreme decision cases constitution argument trial arguments debate laws ",
+		"weights" : [
+			7,
+			6,
+			4
+		]
+	},
+	{
+		"name" : "2.3.5.8.21.close-reading_Classical_rhetoric",
+		"topic" : 21,
+		"size" : 49.06,
+		"imports" : [
+			"2.2.4.6.17.race_and_white-black_power_struggles",
+			"1.1.3.5.18.pedagogical_theory",
+			"2.3.5.8.21.poetics_and_semiotics",
+			"2.2.4.6.20.identity_construction",
+			"2.2.4.7.2.performance",
+			"2.2.2.9.3.capitalism_Marxism_and_activism",
+			"2.3.5.8.21.invention_plus_postmodernist_theories_of_meaning",
+			"2.2.4.7.19.narrative_theory_plus_fandom_plus_readers_as_writers",
+			"1.1.3.5.18.history_of_Composition",
+			"2.3.5.10.8.silence_plus_England",
+			"2.3.5.10.8.18th_and_19th_centuries",
+			"2.3.5.8.21.philosophy_of_language",
+			"2.3.5.10.6.writing_with_and_about_religious_texts",
+			"1.4.6.11.7.comprehension_and_usability"
+		],
+		"rank" : 15,
+		"scaledsize" : 2.8,
+		"topwords" : "rhetoric rhetorical audience aristotle ethos speech argument classical theory plato communication persuasion invention speaking rhetor arguments good truth philosophy ",
+		"weights" : [
+			4,
+			4,
+			5,
+			15,
+			31,
+			4,
+			4,
+			4,
+			12,
+			5,
+			19,
+			6,
+			4,
+			10,
+			13
+		]
+	},
+	{
+		"name" : "2.2.4.7.19.narrative_theory_plus_fandom_plus_readers_as_writers",
+		"topic" : 23,
+		"size" : 27.7,
+		"imports" : [
+			"1.1.3.5.18.pedagogical_theory",
+			"2.2.4.7.19.story_and_narrative",
+			"2.3.5.8.21.poetics_and_semiotics",
+			"2.3.5.8.21.close-reading_Classical_rhetoric",
+			"1.1.1.1.1.students_in_the_classroom",
+			"2.3.5.8.21.philosophy_of_language"
+		],
+		"rank" : 25,
+		"scaledsize" : 1.58,
+		"topwords" : "narrative story reading reader readers text literature fiction narratives stories literary book character characters audience read narrator texts author ",
+		"weights" : [
+			4,
+			4,
+			6,
+			7,
+			6,
+			4
+		]
+	},
+	{
+		"name" : "1.1.3.5.18.history_of_Composition",
+		"topic" : 25,
+		"size" : 53.92,
+		"imports" : [
+			"1.1.1.1.1.process_reflections",
+			"1.1.3.5.16.institutional_context_of_writing_instruction",
+			"1.1.3.5.18.pedagogical_theory",
+			"2.2.4.7.19.story_and_narrative",
+			"2.3.5.8.21.poetics_and_semiotics",
+			"2.2.4.6.20.identity_construction",
+			"2.3.5.8.21.close-reading_Classical_rhetoric",
+			"1.1.1.1.1.students_in_the_classroom",
+			"1.4.6.2.10.community_engagement_and_collaboration",
+			"1.1.1.3.13.writing_process__formal_and_cognitive_studies",
+			"1.4.6.11.7.comprehension_and_usability"
+		],
+		"rank" : 12,
+		"scaledsize" : 3.07,
+		"topwords" : "writing composition writers writer write english essay creative process written language reading work personal essays instruction basic style college ",
+		"weights" : [
+			23,
+			6,
+			4,
+			13,
+			13,
+			14,
+			47,
+			6,
+			9,
+			6,
+			4
+		]
+	},
+	{
+		"name" : "2.3.5.10.6.reading_Burke",
+		"topic" : 26,
+		"size" : 14.04,
+		"imports" : [],
+		"rank" : 40,
+		"scaledsize" : 0.8,
+		"topwords" : "burke terms motives symbolic identification term action act form order language human sense nature scene social arendt principle pp ",
+		"weights" : [
+			"NA"
+		]
+	},
+	{
+		"name" : "1.4.6.11.7.visual_rhetoric",
+		"topic" : 27,
+		"size" : 21.68,
+		"imports" : [
+			"2.2.4.7.19.story_and_narrative",
+			"2.3.5.8.21.poetics_and_semiotics",
+			"1.4.6.11.14.rhetorical_affordances_of_the_Web",
+			"2.3.5.8.21.philosophy_of_language",
+			"1.4.6.11.7.comprehension_and_usability"
+		],
+		"rank" : 30,
+		"scaledsize" : 1.24,
+		"topwords" : "visual images image figure verbal art space body meaning photographs representations pictures picture representation objects multimodal photograph elements media ",
+		"weights" : [
+			5,
+			4,
+			9,
+			4,
+			7
+		]
+	},
+	{
+		"name" : "2.2.2.9.5.political_rhetoric_mostly_of_the_US",
+		"topic" : 28,
+		"size" : 47.28,
+		"imports" : [
+			"1.1.1.1.12.multilingualism_and_world_englishes_plus",
+			"2.2.4.6.17.race_and_white-black_power_struggles",
+			"2.2.4.6.20.women_acting_rhetorically",
+			"2.2.4.6.20.identity_construction",
+			"2.2.2.9.3.capitalism_Marxism_and_activism",
+			"2.2.2.9.5.court_decisions_and_ramifications",
+			"2.3.5.10.8.18th_and_19th_centuries",
+			"2.2.2.9.5.political_discourse",
+			"2.3.5.8.21.philosophy_of_language",
+			"2.2.2.4.4.military-industrial_complex",
+			"2.2.2.9.3.international_conflict_and_negotiation",
+			"2.2.2.9.5.civic_discourse_plus_china_and_japan_plus"
+		],
+		"rank" : 16,
+		"scaledsize" : 2.7,
+		"topwords" : "war president american public states united bush national military america speech political nation government people policy press carter york ",
+		"weights" : [
+			7,
+			11,
+			4,
+			4,
+			6,
+			7,
+			6,
+			11,
+			7,
+			6,
+			10,
+			7
+		]
+	},
+	{
+		"name" : "2.3.5.10.8.silence_plus_England",
+		"topic" : 29,
+		"size" : 12.65,
+		"imports" : [
+			"2.3.5.8.21.poetics_and_semiotics",
+			"2.3.5.8.21.close-reading_Classical_rhetoric",
+			"2.3.5.10.8.18th_and_19th_centuries"
+		],
+		"rank" : 41,
+		"scaledsize" : 0.72,
+		"topwords" : "english england de letter century letters chomsky early sublime hyperbole style renaissance london elizabeth eighteenth texts scrapbooks language scrapbook ",
+		"weights" : [
+			11,
+			5,
+			5
+		]
+	},
+	{
+		"name" : "1.1.1.1.9.writing_center_tutorials",
+		"topic" : 30,
+		"size" : 17.16,
+		"imports" : [
+			"1.1.1.1.1.process_reflections",
+			"1.1.3.5.16.institutional_context_of_writing_instruction",
+			"1.1.3.5.18.pedagogical_theory",
+			"1.1.1.1.1.students_in_the_classroom",
+			"1.1.1.3.13.writing_process__formal_and_cognitive_studies",
+			"1.4.6.11.14.rhetorical_affordances_of_the_Web"
+		],
+		"rank" : 36,
+		"scaledsize" : 0.98,
+		"topwords" : "writing center tutors tutor student tutoring centers paper session questions tutorial conference writer sessions writers peer work training owl ",
+		"weights" : [
+			12,
+			4,
+			4,
+			11,
+			5,
+			5
+		]
+	},
+	{
+		"name" : "2.3.5.10.8.18th_and_19th_centuries",
+		"topic" : 31,
+		"size" : 53.25,
+		"imports" : [
+			"1.1.3.5.16.institutional_context_of_writing_instruction",
+			"2.2.4.6.17.race_and_white-black_power_struggles",
+			"1.1.3.5.18.pedagogical_theory",
+			"2.2.4.6.20.women_acting_rhetorically",
+			"2.3.5.8.21.poetics_and_semiotics",
+			"2.2.4.7.2.performance",
+			"2.2.2.9.3.capitalism_Marxism_and_activism",
+			"2.3.5.8.21.close-reading_Classical_rhetoric",
+			"2.2.2.9.5.political_rhetoric_mostly_of_the_US",
+			"2.3.5.10.8.silence_plus_England",
+			"1.1.3.5.16.preparation_for_college",
+			"2.3.5.8.21.philosophy_of_language",
+			"2.2.2.9.3.international_conflict_and_negotiation",
+			"2.3.5.10.6.writing_with_and_about_religious_texts",
+			"2.2.2.9.5.civic_discourse_plus_china_and_japan_plus"
+		],
+		"rank" : 13,
+		"scaledsize" : 3.04,
+		"topwords" : "history century american early rhetoric historical nineteenth society life york moral university great education public press literature men america ",
+		"weights" : [
+			6,
+			9,
+			4,
+			7,
+			4,
+			5,
+			9,
+			4,
+			15,
+			4,
+			4,
+			13,
+			15,
+			7,
+			11
+		]
+	},
+	{
+		"name" : "1.1.1.1.1.students_in_the_classroom",
+		"topic" : 32,
+		"size" : 94.57,
+		"imports" : [
+			"1.1.1.1.1.process_reflections",
+			"1.1.1.1.12.multilingualism_and_world_englishes_plus",
+			"1.1.3.5.16.institutional_context_of_writing_instruction",
+			"2.2.4.6.17.race_and_white-black_power_struggles",
+			"1.1.3.5.18.pedagogical_theory",
+			"1.1.1.1.12.literacy_and_literacies",
+			"2.2.4.7.19.story_and_narrative",
+			"2.2.4.6.20.women_acting_rhetorically",
+			"2.3.5.8.21.poetics_and_semiotics",
+			"2.2.4.6.20.identity_construction",
+			"2.2.4.7.19.narrative_theory_plus_fandom_plus_readers_as_writers",
+			"1.1.3.5.18.history_of_Composition",
+			"1.1.1.1.9.writing_center_tutorials",
+			"1.4.6.2.10.community_engagement_and_collaboration",
+			"1.1.1.3.13.writing_process__formal_and_cognitive_studies",
+			"1.1.1.3.13.online_learning_and_collaboration",
+			"1.1.1.3.13.quantifying_written_products",
+			"1.4.6.11.7.genre_and_discipline",
+			"1.4.6.11.14.rhetorical_affordances_of_the_Web",
+			"1.1.3.5.16.preparation_for_college",
+			"2.3.5.8.21.philosophy_of_language",
+			"1.4.6.11.7.comprehension_and_usability"
+		],
+		"rank" : 1,
+		"scaledsize" : 5.39,
+		"topwords" : "students writing student class teacher classroom teachers paper instructor research study instructors semester college assignment classes write teaching learning ",
+		"weights" : [
+			17,
+			58,
+			18,
+			29,
+			15,
+			19,
+			12,
+			4,
+			9,
+			66,
+			14,
+			20,
+			5,
+			65,
+			10,
+			14,
+			6,
+			4,
+			24,
+			4,
+			23,
+			12
+		]
+	},
+	{
+		"name" : "2.2.4.7.2.film_criticism_plus_Japan",
+		"topic" : 33,
+		"size" : 10.08,
+		"imports" : [
+			"2.2.4.7.19.story_and_narrative",
+			"2.2.2.9.3.capitalism_Marxism_and_activism"
+		],
+		"rank" : 45,
+		"scaledsize" : 0.57,
+		"topwords" : "film films japanese documentary media video japan cinema audience popular scene movie cultural camera festival camp man euro foreign ",
+		"weights" : [
+			9,
+			5
+		]
+	},
+	{
+		"name" : "2.2.2.4.4.unclear_but_mostly_museums_and_archives",
+		"topic" : 34,
+		"size" : 9.49,
+		"imports" : [],
+		"rank" : 46,
+		"scaledsize" : 0.54,
+		"topwords" : "university state museum texas writing jewish board kairos editorial archives archive history jews visitors composition holocaust maps exhibit map ",
+		"weights" : [
+			"NA"
+		]
+	},
+	{
+		"name" : "1.4.6.2.10.community_engagement_and_collaboration",
+		"topic" : 35,
+		"size" : 64.18,
+		"imports" : [
+			"1.1.1.1.1.process_reflections",
+			"1.1.3.5.16.institutional_context_of_writing_instruction",
+			"1.1.3.5.18.pedagogical_theory",
+			"2.2.2.4.15.workplace_and_organizational_histories",
+			"2.2.4.6.20.identity_construction",
+			"2.2.2.9.3.capitalism_Marxism_and_activism",
+			"1.1.3.5.18.history_of_Composition",
+			"1.1.1.1.1.students_in_the_classroom",
+			"2.2.2.4.11.health_medicine_and_disease",
+			"1.1.1.3.13.online_learning_and_collaboration",
+			"1.4.6.11.7.genre_and_discipline",
+			"1.4.6.11.14.rhetorical_affordances_of_the_Web",
+			"1.1.3.5.16.preparation_for_college",
+			"1.4.6.2.10.technical_communication_mostly",
+			"2.2.2.4.4.military-industrial_complex",
+			"1.4.6.11.7.comprehension_and_usability"
+		],
+		"rank" : 7,
+		"scaledsize" : 3.66,
+		"topwords" : "community research learning project process service work group members development study professional knowledge organization practice team information communities activities ",
+		"weights" : [
+			7,
+			9,
+			7,
+			8,
+			6,
+			22,
+			4,
+			6,
+			12,
+			15,
+			17,
+			7,
+			6,
+			6,
+			6,
+			17
+		]
+	},
+	{
+		"name" : "2.2.2.9.5.political_discourse",
+		"topic" : 36,
+		"size" : 21.53,
+		"imports" : [
+			"2.2.4.6.20.women_acting_rhetorically",
+			"2.2.2.9.3.capitalism_Marxism_and_activism",
+			"2.2.2.9.5.political_rhetoric_mostly_of_the_US",
+			"1.1.1.3.13.quantifying_written_products"
+		],
+		"rank" : 31,
+		"scaledsize" : 1.23,
+		"topwords" : "media news campaign political public blog obama television people issues communication coverage http analysis internet blogs post audience clinton ",
+		"weights" : [
+			6,
+			4,
+			4,
+			11
+		]
+	},
+	{
+		"name" : "2.2.4.6.17.Native_American_history_and_rhetoric",
+		"topic" : 37,
+		"size" : 10.63,
+		"imports" : [
+			"1.1.1.1.1.process_reflections",
+			"2.2.4.6.20.identity_construction"
+		],
+		"rank" : 44,
+		"scaledsize" : 0.61,
+		"topwords" : "indian american native indians land cherokee people indigenous white government cultural nation culture sovereignty history americans tribal states rhetorical ",
+		"weights" : [
+			4,
+			4
+		]
+	},
+	{
+		"name" : "2.2.2.4.11.health_medicine_and_disease",
+		"topic" : 38,
+		"size" : 17.35,
+		"imports" : [
+			"1.4.6.2.10.community_engagement_and_collaboration",
+			"1.1.1.3.13.quantifying_written_products"
+		],
+		"rank" : 34,
+		"scaledsize" : 0.99,
+		"topwords" : "health medical care medicine patient disease patients illness autism depression aids clinical mental people treatment body physicians doctors nursing ",
+		"weights" : [
+			6,
+			7
+		]
+	},
+	{
+		"name" : "1.1.1.3.13.writing_process__formal_and_cognitive_studies",
+		"topic" : 39,
+		"size" : 50.69,
+		"imports" : [
+			"1.1.1.1.1.process_reflections",
+			"1.1.1.1.12.multilingualism_and_world_englishes_plus",
+			"1.1.3.5.16.institutional_context_of_writing_instruction",
+			"1.1.3.5.18.history_of_Composition",
+			"1.1.1.1.9.writing_center_tutorials",
+			"1.1.1.1.1.students_in_the_classroom",
+			"1.1.1.3.13.online_learning_and_collaboration",
+			"1.1.1.3.13.quantifying_written_products",
+			"1.4.6.11.7.genre_and_discipline",
+			"1.4.6.11.14.rhetorical_affordances_of_the_Web",
+			"1.4.6.11.7.comprehension_and_usability"
+		],
+		"rank" : 14,
+		"scaledsize" : 2.89,
+		"topwords" : "writing language english students study writers feedback esl process learning comments reading revision research grammar knowledge sentence learners write ",
+		"weights" : [
+			12,
+			23,
+			14,
+			4,
+			9,
+			17,
+			9,
+			4,
+			4,
+			4,
+			58
+		]
+	},
+	{
+		"name" : "1.1.1.3.13.online_learning_and_collaboration",
+		"topic" : 40,
+		"size" : 17.22,
+		"imports" : [
+			"1.1.1.1.1.process_reflections",
+			"1.1.3.5.18.pedagogical_theory",
+			"1.1.1.1.1.students_in_the_classroom",
+			"1.4.6.2.10.community_engagement_and_collaboration",
+			"1.1.1.3.13.writing_process__formal_and_cognitive_studies",
+			"1.1.1.3.13.quantifying_written_products",
+			"1.4.6.11.14.rhetorical_affordances_of_the_Web"
+		],
+		"rank" : 35,
+		"scaledsize" : 0.98,
+		"topwords" : "online peer group students discussion face response interaction collaborative participants social communication computer learning peers groups discussions collaboration feedback ",
+		"weights" : [
+			5,
+			5,
+			6,
+			7,
+			18,
+			9,
+			12
+		]
+	},
+	{
+		"name" : "1.1.1.3.13.quantifying_written_products",
+		"topic" : 41,
+		"size" : 36.41,
+		"imports" : [
+			"1.1.3.5.16.institutional_context_of_writing_instruction",
+			"1.1.1.1.1.students_in_the_classroom",
+			"2.2.2.9.5.political_discourse",
+			"2.2.2.4.11.health_medicine_and_disease",
+			"1.1.1.3.13.writing_process__formal_and_cognitive_studies",
+			"1.1.1.3.13.online_learning_and_collaboration",
+			"1.1.3.5.16.preparation_for_college",
+			"1.4.6.11.7.comprehension_and_usability"
+		],
+		"rank" : 19,
+		"scaledsize" : 2.08,
+		"topwords" : "test study table results scores group research assessment significant score data participants scale social differences total groups message number ",
+		"weights" : [
+			8,
+			8,
+			6,
+			29,
+			6,
+			6,
+			23,
+			5
+		]
+	},
+	{
+		"name" : "2.2.2.4.11.medicine_disability_the_body_and_identity",
+		"topic" : 42,
+		"size" : 9.28,
+		"imports" : [
+			"2.2.4.6.20.women_acting_rhetorically",
+			"2.2.4.6.20.identity_construction",
+			"2.2.2.9.3.capitalism_Marxism_and_activism"
+		],
+		"rank" : 47,
+		"scaledsize" : 0.53,
+		"topwords" : "disability violence children birth baby deaf child control sanger body mother women disabilities bodies disabled rhetoric welfare mothers people ",
+		"weights" : [
+			4,
+			4,
+			4
+		]
+	},
+	{
+		"name" : "1.4.6.11.7.genre_and_discipline",
+		"topic" : 43,
+		"size" : 30.66,
+		"imports" : [
+			"1.1.3.5.16.institutional_context_of_writing_instruction",
+			"1.1.3.5.18.pedagogical_theory",
+			"2.2.2.4.4.science_writing_and_environmentalism",
+			"1.1.1.1.1.students_in_the_classroom",
+			"1.4.6.2.10.community_engagement_and_collaboration",
+			"1.1.1.3.13.writing_process__formal_and_cognitive_studies",
+			"1.4.6.11.7.comprehension_and_usability"
+		],
+		"rank" : 23,
+		"scaledsize" : 1.75,
+		"topwords" : "research genre genres study knowledge field writing discourse studies academic rhetorical disciplinary activity analysis social practices professional work discipline ",
+		"weights" : [
+			5,
+			4,
+			9,
+			5,
+			15,
+			7,
+			14
+		]
+	},
+	{
+		"name" : "1.4.6.11.14.rhetorical_affordances_of_the_Web",
+		"topic" : 44,
+		"size" : 41.17,
+		"imports" : [
+			"1.1.1.1.1.process_reflections",
+			"1.1.3.5.16.institutional_context_of_writing_instruction",
+			"1.1.3.5.18.pedagogical_theory",
+			"2.3.5.8.21.poetics_and_semiotics",
+			"2.2.4.6.20.identity_construction",
+			"2.2.2.9.3.capitalism_Marxism_and_activism",
+			"2.3.5.8.21.invention_plus_postmodernist_theories_of_meaning",
+			"1.4.6.11.7.visual_rhetoric",
+			"1.1.1.1.9.writing_center_tutorials",
+			"1.1.1.1.1.students_in_the_classroom",
+			"1.4.6.2.10.community_engagement_and_collaboration",
+			"1.1.1.3.13.writing_process__formal_and_cognitive_studies",
+			"1.1.1.3.13.online_learning_and_collaboration",
+			"1.4.6.11.14.games_plus_commercial_editing_practices",
+			"2.3.5.8.21.philosophy_of_language",
+			"1.4.6.2.10.technical_communication_mostly",
+			"1.4.6.11.7.comprehension_and_usability"
+		],
+		"rank" : 18,
+		"scaledsize" : 2.35,
+		"topwords" : "technology web computer online digital technologies computers site information internet media design users page technological access sites software http ",
+		"weights" : [
+			7,
+			8,
+			9,
+			11,
+			6,
+			9,
+			16,
+			6,
+			4,
+			4,
+			5,
+			5,
+			4,
+			19,
+			8,
+			4,
+			5
+		]
+	},
+	{
+		"name" : "1.1.3.5.16.preparation_for_college",
+		"topic" : 45,
+		"size" : 31.78,
+		"imports" : [
+			"1.1.3.5.16.institutional_context_of_writing_instruction",
+			"2.2.2.4.15.workplace_and_organizational_histories",
+			"2.2.2.9.3.capitalism_Marxism_and_activism",
+			"2.3.5.10.8.18th_and_19th_centuries",
+			"1.1.1.1.1.students_in_the_classroom",
+			"1.4.6.2.10.community_engagement_and_collaboration",
+			"1.1.1.3.13.quantifying_written_products"
+		],
+		"rank" : 21,
+		"scaledsize" : 1.81,
+		"topwords" : "education school students college teachers educational schools learning higher high student instruction teaching teacher skills colleges educators university state ",
+		"weights" : [
+			13,
+			6,
+			6,
+			6,
+			12,
+			6,
+			8
+		]
+	},
+	{
+		"name" : "1.4.6.11.14.games_plus_commercial_editing_practices",
+		"topic" : 46,
+		"size" : 12.03,
+		"imports" : [
+			"1.4.6.11.14.rhetorical_affordances_of_the_Web"
+		],
+		"rank" : 42,
+		"scaledsize" : 0.69,
+		"topwords" : "game review book games author editing authors reviews authorship video editors articles journals editor publishing books published article reviewers ",
+		"weights" : [
+			7
+		]
+	},
+	{
+		"name" : "2.3.5.8.21.philosophy_of_language",
+		"topic" : 48,
+		"size" : 75.95,
+		"imports" : [
+			"1.1.1.1.12.multilingualism_and_world_englishes_plus",
+			"1.1.3.5.18.pedagogical_theory",
+			"2.3.5.8.21.poetics_and_semiotics",
+			"2.2.4.6.20.identity_construction",
+			"2.2.2.9.3.capitalism_Marxism_and_activism",
+			"2.3.5.8.21.invention_plus_postmodernist_theories_of_meaning",
+			"2.2.2.4.4.science_writing_and_environmentalism",
+			"2.2.2.9.5.court_decisions_and_ramifications",
+			"2.3.5.8.21.close-reading_Classical_rhetoric",
+			"2.2.4.7.19.narrative_theory_plus_fandom_plus_readers_as_writers",
+			"1.4.6.11.7.visual_rhetoric",
+			"2.2.2.9.5.political_rhetoric_mostly_of_the_US",
+			"2.3.5.10.8.18th_and_19th_centuries",
+			"1.1.1.1.1.students_in_the_classroom",
+			"1.4.6.11.14.rhetorical_affordances_of_the_Web",
+			"1.4.6.11.7.comprehension_and_usability"
+		],
+		"rank" : 3,
+		"scaledsize" : 4.33,
+		"topwords" : "language theory discourse meaning knowledge system fact point power metaphor question view speech human case social model problem sense ",
+		"weights" : [
+			17,
+			4,
+			14,
+			27,
+			5,
+			9,
+			20,
+			4,
+			6,
+			31,
+			4,
+			4,
+			4,
+			9,
+			4,
+			8
+		]
+	},
+	{
+		"name" : "1.4.6.2.10.technical_communication_mostly",
+		"topic" : 49,
+		"size" : 22.67,
+		"imports" : [
+			"2.2.2.4.15.workplace_and_organizational_histories",
+			"1.4.6.2.10.community_engagement_and_collaboration",
+			"1.4.6.11.14.rhetorical_affordances_of_the_Web",
+			"1.4.6.11.7.comprehension_and_usability"
+		],
+		"rank" : 29,
+		"scaledsize" : 1.29,
+		"topwords" : "technical communication design business information company user system users documents participants workplace management engineering research task technology product work ",
+		"weights" : [
+			6,
+			4,
+			22,
+			9
+		]
+	},
+	{
+		"name" : "2.2.2.4.4.military-industrial_complex",
+		"topic" : 51,
+		"size" : 7.69,
+		"imports" : [
+			"2.2.2.9.5.political_rhetoric_mostly_of_the_US",
+			"1.4.6.2.10.community_engagement_and_collaboration",
+			"1.4.6.11.7.comprehension_and_usability"
+		],
+		"rank" : 52,
+		"scaledsize" : 0.44,
+		"topwords" : "public risk space nuclear report safety information relevance doe welsh missile image environmental wales topic soviet plant fernald controversy ",
+		"weights" : [
+			4,
+			4,
+			4
+		]
+	},
+	{
+		"name" : "2.2.2.9.3.international_conflict_and_negotiation",
+		"topic" : 52,
+		"size" : 10.8,
+		"imports" : [
+			"2.2.2.9.3.capitalism_Marxism_and_activism",
+			"2.2.2.9.5.political_rhetoric_mostly_of_the_US",
+			"2.3.5.10.8.18th_and_19th_centuries"
+		],
+		"rank" : 43,
+		"scaledsize" : 0.62,
+		"topwords" : "peace conflict korea korean south colonial people political trade power israeli india lyceum national witch world witches north international ",
+		"weights" : [
+			6,
+			6,
+			4
+		]
+	},
+	{
+		"name" : "2.3.5.10.6.writing_with_and_about_religious_texts",
+		"topic" : 53,
+		"size" : 16.35,
+		"imports" : [
+			"1.1.1.1.1.process_reflections",
+			"2.2.4.6.20.women_acting_rhetorically",
+			"2.2.4.6.20.identity_construction",
+			"2.3.5.8.21.close-reading_Classical_rhetoric",
+			"2.3.5.10.8.18th_and_19th_centuries"
+		],
+		"rank" : 37,
+		"scaledsize" : 0.93,
+		"topwords" : "god church religious christian bible faith religion spiritual christ prayer jesus catholic life biblical pastor community congregation sermon sacred ",
+		"weights" : [
+			5,
+			5,
+			4,
+			4,
+			7
+		]
+	},
+	{
+		"name" : "2.2.2.9.5.civic_discourse_plus_china_and_japan_plus",
+		"topic" : 54,
+		"size" : 8.56,
+		"imports" : [
+			"2.2.2.9.3.capitalism_Marxism_and_activism",
+			"2.2.2.9.5.political_rhetoric_mostly_of_the_US",
+			"2.3.5.10.8.18th_and_19th_centuries"
+		],
+		"rank" : 50,
+		"scaledsize" : 0.49,
+		"topwords" : "chinese china apology discourse mao vico garcia zedong hong humphrey kong cultural western utterance council people taiwanese mr political ",
+		"weights" : [
+			4,
+			7,
+			4
+		]
+	},
+	{
+		"name" : "1.4.6.11.7.comprehension_and_usability",
+		"topic" : 55,
+		"size" : 61.72,
+		"imports" : [
+			"1.1.1.1.12.multilingualism_and_world_englishes_plus",
+			"1.1.3.5.18.pedagogical_theory",
+			"2.2.4.7.19.story_and_narrative",
+			"2.3.5.8.21.close-reading_Classical_rhetoric",
+			"1.1.3.5.18.history_of_Composition",
+			"1.4.6.11.7.visual_rhetoric",
+			"1.1.1.1.1.students_in_the_classroom",
+			"1.4.6.2.10.community_engagement_and_collaboration",
+			"1.1.1.3.13.writing_process__formal_and_cognitive_studies",
+			"1.1.1.3.13.quantifying_written_products",
+			"1.4.6.11.7.genre_and_discipline",
+			"1.4.6.11.14.rhetorical_affordances_of_the_Web",
+			"2.3.5.8.21.philosophy_of_language",
+			"1.4.6.2.10.technical_communication_mostly",
+			"2.2.2.4.4.military-industrial_complex"
+		],
+		"rank" : 9,
+		"scaledsize" : 3.52,
+		"topwords" : "text analysis texts information discourse readers chapter study reader rhetorical content audience context specific reading data based features types ",
+		"weights" : [
+			7,
+			5,
+			5,
+			4,
+			13,
+			9,
+			9,
+			6,
+			9,
+			8,
+			5,
+			11,
+			17,
+			6,
+			4
+		]
+	}
+]

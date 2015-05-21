@@ -125,7 +125,7 @@ d3.json("consortsk55_clusters_nobads.json", function(json) {
       		} else { return d.x < 180 ? null : "rotate(180)"; }
       	})
       .attr("opacity", function(d) {
-			if (!(d.children)) { return 1; } else return (d.parent && d.parent.children.length == 1) ? 0 : 1;
+			if (!(d.children)) { return 1; } else return (d.parent && d.parent.children.length == 1) ? 0 : 0;
       })
       .text(function(d) { return d.name; })
       .on("mouseover", mouseover);
@@ -207,7 +207,7 @@ function mouseover(d) {
 	var deets = document.getElementById("details");
 	  
 	if(d.children) {
-		deets.innerHTML = "<h2>Cluster " + 	d.name[0].replace(/'of'/g, ' of ') + "</h2>"
+		deets.innerHTML = "<h2>Cluster " + 	d.name[0].replace(/of/g, ' of ') + "</h2>"
 			+ "<div id='size'>Percentage of corpus: " + (100*sum_children(d)).toFixed(2) + "</div>";
 		
 	} else {
@@ -223,11 +223,11 @@ function sum_children(d, depth, sumsofar) {
 	if(!depth) { var depth = 0; }		// set a default value if none is given
 	if(!sumsofar) { var sumsofar = 0; } // set a default value if none is given
 
-	if(depth === 0) {
-		console.log("Descendants of " + d.name + ": ");
-	} else {
-		console.log("At depth " + depth + ": " + d.name);
-	}
+// 	if(depth === 0) {
+// 		console.log("Descendants of " + d.name + ": ");
+// 	} else {
+// 		console.log("At depth " + depth + ": " + d.name);
+// 	}
 	
 	if(d.children) { 					// proceed recursively through children
 		depth++;
