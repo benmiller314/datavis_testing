@@ -1,0 +1,692 @@
+{
+  "name": ["1of1"],
+  "children": [
+    {
+      "name": ["1of2"],
+      "children": [
+        {
+          "name": ["1of4"],
+          "children": [
+            {
+              "name": ["1of6"],
+              "children": [
+                {
+                  "name": ["1of9"],
+                  "children": [
+                    {
+                      "name": ["1of11"],
+                      "children": [
+                        {
+                          "name": ["1of19"],
+                          "children": [
+                            {
+                              "name": ["writing_center_tutorials"],
+                              "size": [12.07274],
+                              "scaledsize": [0.009855],
+                              "topwords": ["writing center tutors tutor student tutoring centers paper session questions tutorial conference writer sessions writers peer work training owl "],
+                              "topic": [30],
+                              "rank": [35],
+                              "titles": ["Negotiating the center: An analysis of writing tutorial interactions between ESL learners and native-English speaking writing center tutors || An investigation of the quantity and quality of collaboration in writing center tutorials || The questions we ask: A study of tutor questions and their effect on writing center tutorials || Responding with purpose: Analysis of a writing center's commentary practices in an asynchronous online writing lab environment || Politeness and self-presentation in writing center discourse"]
+                            },
+                            {
+                              "name": ["process_reflections"],
+                              "size": [46.29219],
+                              "scaledsize": [0.03779],
+                              "topwords": ["don participants people study time interview research things experience work didn make lot interviews experiences questions feel ve kind "],
+                              "topic": [1],
+                              "rank": [6],
+                              "titles": ["Telling developments: Narrative interviews with writers as _<a0>_acts of meaning_<a0><9d> || Compelled to connect: A phenomenological study of the experience of writing || Improving the skills of remedial-writing students with strategies for revising || Breaking through illusions: Collaboration in one college writing classroom || Not just chairs and tables: New peer tutors' negotiations with identity, literacy, and difference in a community college writing center"]
+                            },
+                            {
+                              "name": ["students_in_the_classroom"],
+                              "size": [67.54937],
+                              "scaledsize": [0.055142],
+                              "topwords": ["students writing student class teacher classroom teachers paper instructor research study instructors semester college assignment classes write teaching learning "],
+                              "topic": [32],
+                              "rank": [1],
+                              "titles": ["In five classrooms: A descriptive study of _<a0>_before writing teaching practices_<a0><9d> in encouraging college writers to write || A case study of selected ESL students' experiences with writing portfolios in college composition courses || Non-traditional students: Age as a factor in the composition classroom || Unmasking the freshman composition phantom: A survey of student attitudes toward the first-year writing class at New Mexico State University || In our voices: A pedagogical approach to reducing writing apprehension"]
+                            }
+                          ]
+                        },
+                        {
+                          "name": ["2of19"],
+                          "children": [
+                            {
+                              "name": ["multilingualism_and_world_englishes_plus"],
+                              "size": [15.49171],
+                              "scaledsize": [0.012646],
+                              "topwords": ["english language cultural american culture linguistic languages al native spanish speakers arabic international university arab world immigrants esl speaking "],
+                              "topic": [3],
+                              "rank": [29],
+                              "titles": ["Task descriptions of non-Western English language use with cross-cultural evaluations and discussions of language choice || Playing with words: The ethnography of poetic genres in Yemen || A case study examination of ESL students in freshman English composition || A linguistic and literary analysis of the writings of Arab Americans in English || Perspectives on 9/11: A critical discourse analysis of ideologies, opinions, and attitudes in Arab media"]
+                            },
+                            {
+                              "name": ["literacy_and_literacies"],
+                              "size": [20.77507],
+                              "scaledsize": [0.016959],
+                              "topwords": ["literacy school reading writing family children community life social practices read stories home study literate literacies research language lives "],
+                              "topic": [9],
+                              "rank": [23],
+                              "titles": ["Rural voices winding through the Andes Mountains: A collective creative literacy research project || A study of literate practices and literate products at an after school computer club for children: Writing from a Vygotskian perspective || We are our mothers' words: The vernacular literacy practices of three generations of central Appalachian women || This wild strange place: Local narratives of literacy use in Appalachian families over three generations || Multimodal discourse and heritage literacy practices"]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": ["11of11"],
+                      "children": [
+                        {
+                          "name": ["18of19"],
+                          "children": [
+                            {
+                              "name": ["online_learning_and_collaboration"],
+                              "size": [13.03035],
+                              "scaledsize": [0.010637],
+                              "topwords": ["online peer group students discussion face response interaction collaborative participants social communication computer learning peers groups discussions collaboration feedback "],
+                              "topic": [40],
+                              "rank": [33],
+                              "titles": ["Computed-mediated peer response in a level-IV ESL academic writing class: A cultural historical activity theoretical perspective || Connecting Arabs and Americans online to promote peace and to increase cultural awareness: A descriptive study about Arab EFL learners' perceptions, practices, behaviors and attitudes towards computer-supported collaborative writing strate || An analysis of ESL students' attitudes about the use of listserv discussions in their college composition classrooms || Impact of communication patterns, network positions and social dynamics factors on learning among students in a CSCL environment || Exploring social presence in communities of practice within a hybrid learning environment: A longitudinal examination of two case studies within the School Technology Leadership graduate-level certificate program"]
+                            },
+                            {
+                              "name": ["quantifying_written_products"],
+                              "size": [24.75973],
+                              "scaledsize": [0.020212],
+                              "topwords": ["test study table results scores group research assessment significant score data participants scale social differences total groups message number "],
+                              "topic": [41],
+                              "rank": [20],
+                              "titles": ["Using social influence messages to examine the effects of matching and adjective laddering on attitudes || Synopsis laboratory reports: Effects on student learning and curricular benefits || Automated scoring of essays: Evaluating score validity || Influence of textual hedging and framing variations on decision making choices pertaining to the climate change issue || Interpersonal communication motives and message design logic: Exploring their interaction in message production"]
+                            },
+                            {
+                              "name": ["writing_process__formal_and_cognitive_studies"],
+                              "size": [36.42522],
+                              "scaledsize": [0.029735],
+                              "topwords": ["writing language english students study writers feedback esl process learning comments reading revision research grammar knowledge sentence learners write "],
+                              "topic": [39],
+                              "rank": [12],
+                              "titles": ["Syswrite: Theory-based writing analysis || Effects of grammar emphasis on the revising processes of ESL students: Two case studies || A case study of native speakers of English composing in German as a foreign language || Functional sentence perspective and second-language composition: A study of revision process in a writing workshop for Thai college students || University students' reactions to teacher commentary and the relationship between the reactions and writing proficiency in an EFL setting"]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": ["3of6"],
+              "children": [
+                {
+                  "name": ["3of9"],
+                  "children": [
+                    {
+                      "name": ["3of11"],
+                      "children": [
+                        {
+                          "name": ["4of19"],
+                          "children": [
+                            {
+                              "name": ["preparation_for_college"],
+                              "size": [22.11554],
+                              "scaledsize": [0.018054],
+                              "topwords": ["education school students college teachers educational schools learning higher high student instruction teaching teacher skills colleges educators university state "],
+                              "topic": [45],
+                              "rank": [22],
+                              "titles": ["Self-regulation in college composition: No writer left behind || Examining composition and literature: Advanced placement and the ends of English || Influence of a community college developmental education writing course on academic performance and persistence || Construction of teacher identity in popular film and political discourse: Moving toward empowerment || The junior college movement: Corporate education for the working class"]
+                            },
+                            {
+                              "name": ["institutional_context_of_writing_instruction"],
+                              "size": [30.37646],
+                              "scaledsize": [0.024797],
+                              "topwords": ["faculty writing english university program college composition teaching courses year graduate programs academic department time students education professional research "],
+                              "topic": [6],
+                              "rank": [18],
+                              "titles": ["University of Louisiana system freshman composition faculty: Instructor working conditions and student learning conditions || Writing at the small liberal arts college: Implications for teaching and learning || The state of writing instruction in Southern Baptist colleges and universities || One size doesn't fit all: A descriptive study of first-year writing at selected Florida colleges and universities || Preparing the next generation: Graduate student administrators in writing centers"]
+                            }
+                          ]
+                        },
+                        {
+                          "name": ["6of19"],
+                          "children": [
+                            {
+                              "name": ["history_of_Composition"],
+                              "size": [35.77525],
+                              "scaledsize": [0.029204],
+                              "topwords": ["writing composition writers writer write english essay creative process written language reading work personal essays instruction basic style college "],
+                              "topic": [25],
+                              "rank": [13],
+                              "titles": ["First-year composition handbooks: Buffering the winds of change || _<a0>_Crossing the lines_<a0><9d> in academic discourse: The transforming and transformative voices of three women in composition studies || Dead letters: Error in composition, 1873--2004 || Studying the studies: Constructions of basic writers in three premier journals from 1970--1999 || Out of style: A retrospective and prospective look at style in composition theory and practice"]
+                            },
+                            {
+                              "name": ["(critical)_pedagogical_theory"],
+                              "size": [57.33524],
+                              "scaledsize": [0.046804],
+                              "topwords": ["students composition teaching pedagogy classroom teachers critical work student teacher theory studies knowledge learning ways education academic pedagogical practice "],
+                              "topic": [8],
+                              "rank": [2],
+                              "titles": ["Critical contentions: Feminism(s) and critical pedagogy in composition studies || The subjects of critical pedagogy and composition: The Asian-American teacher-intellectual and affect || Teaching in the 21st century: Merging critical theory and practice for the writing and rhetoric class || Theorizing student reflection for composition || Before the classroom: Teachers theorizing first -year composition pedagogy"]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": ["4of4"],
+          "children": [
+            {
+              "name": ["6of6"],
+              "children": [
+                {
+                  "name": ["7of9"],
+                  "children": [
+                    {
+                      "name": ["8of11"],
+                      "children": [
+                        {
+                          "name": ["13of19"],
+                          "children": [
+                            {
+                              "name": ["visual_rhetoric"],
+                              "size": [13.41368],
+                              "scaledsize": [0.01095],
+                              "topwords": ["visual images image figure verbal art space body meaning photographs representations pictures picture representation objects multimodal photograph elements media "],
+                              "topic": [27],
+                              "rank": [32],
+                              "titles": ["Haptic visions: Rhetorics, subjectivities and visualization technologies in the case of the scanning tunneling microscope || The euro: A multimodal study in presence || Visual representations and scientific knowledge || Visual verbal meaning collaboration: A framework for the study of communication design || Insight from a rhetorical perspective: A generic visual rhetoric"]
+                            },
+                            {
+                              "name": ["comprehension_and_usability"],
+                              "size": [42.99143],
+                              "scaledsize": [0.035095],
+                              "topwords": ["text analysis texts information discourse readers chapter study reader rhetorical content audience context specific reading data based features types "],
+                              "topic": [55],
+                              "rank": [9],
+                              "titles": ["A study of discourse functions of relative clauses from a functional sentence perspective framework || The use of descriptive and prescriptive content for the design of dialog boxes as a determining factor in the usability of GUI style guides || Bulleted points and typographic cues: Effects on recall and recall order || Reading by the book: An examination of reading pedagogy in introductory composition textbooks || The organization of data graphics: A heuristic for writing instructors"]
+                            },
+                            {
+                              "name": ["genre_and_discipline"],
+                              "size": [19.89958],
+                              "scaledsize": [0.016245],
+                              "topwords": ["research genre genres study knowledge field writing discourse studies academic rhetorical disciplinary activity analysis social practices professional work discipline "],
+                              "topic": [43],
+                              "rank": [24],
+                              "titles": ["Citation and academic careers: Six stories from two fields || Genre and learning: Exploring learners and learning in the ESP genre-based framework of learning academic writing || Exploring the interactions between writing instruction and disciplinary practice: Pathways of four multilingual writers || Genre dumping: Bad for the rhetorical environment? A study of recurrence and conflict in use cases in software design || The genre of disciplines: Explorations in disciplinary writing and rhetoric and composition"]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": ["9of9"],
+                  "children": [
+                    {
+                      "name": ["10of11"],
+                      "children": [
+                        {
+                          "name": ["15of19"],
+                          "children": [
+                            {
+                              "name": ["technical_communication_mostly"],
+                              "size": [15.33713],
+                              "scaledsize": [0.01252],
+                              "topwords": ["technical communication design business information company user system users documents participants workplace management engineering research task technology product work "],
+                              "topic": [49],
+                              "rank": [30],
+                              "titles": ["Exploring user/webtext interactions: An examination of gender and sex differences in Web use || Downsizing and upgrading: A manufacturing firm's move to electronic distribution of documents || Process and power: Building strategies for technical communicators to effect organizational change || Expanding the scope of localization: A cultural usability perspective on mobile text messaging use in American and Chinese contexts || Wireless transactions: The rhetorical appeals of consumer electronics marketing"]
+                            },
+                            {
+                              "name": ["community_engagement_and_collaboration"],
+                              "size": [44.54468],
+                              "scaledsize": [0.036363],
+                              "topwords": ["community research learning project process service work group members development study professional knowledge organization practice team information communities activities "],
+                              "topic": [35],
+                              "rank": [7],
+                              "titles": ["Interdisciplinary group process as an indeterminate zone for collaboration and technical communication: A case study of proposal writing for an immune building and test bed || Documenting institutional identity: Strategic writing in the IUPUI comprehensive campaign || The idea of community: Service-learning connections to the writing classroom || Making decisions about communication technologies: A rhetorical decision method || Transforming social conflict through an expanded theory of rhetoric"]
+                            }
+                          ]
+                        },
+                        {
+                          "name": ["19of19"],
+                          "children": [
+                            {
+                              "name": ["games_plus_commercial_editing_practices"],
+                              "size": [8.21867],
+                              "scaledsize": [0.006709],
+                              "topwords": ["game review book games author editing authors reviews authorship video editors articles journals editor publishing books published article reviewers "],
+                              "topic": [46],
+                              "rank": [43],
+                              "titles": ["The official strategy guide for video game studies: A grammar and rhetoric of video games || The business of consumer literacy: How the modern book industry shapes what we read || Passage to Morrowind: (Dis)locating virtual and _<a0>_real_<a0><9d> identities in video role-playing games || Electronic editing in technical communication: Practices, attitudes, and impacts || The subject at play: Computer games and composition studies"]
+                            },
+                            {
+                              "name": ["rhetorical_affordances_of_the_Web"],
+                              "size": [27.29406],
+                              "scaledsize": [0.022281],
+                              "topwords": ["technology web computer online digital technologies computers site information internet media design users page technological access sites software http "],
+                              "topic": [44],
+                              "rank": [19],
+                              "titles": ["An art of emergent visual rhetoric || Toward a new literacy: Technology, policy, and control || Digital archives and the turn to design || Synergistic ethos: A rhetorical analysis of university Web sites in the knowledge network || _<a0>_Ordinary people do this_<a0><9d>: A rhetorical case study of novice Web design"]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": ["2of2"],
+      "children": [
+        {
+          "name": ["2of4"],
+          "children": [
+            {
+              "name": ["2of6"],
+              "children": [
+                {
+                  "name": ["2of9"],
+                  "children": [
+                    {
+                      "name": ["2of11"],
+                      "children": [
+                        {
+                          "name": ["12of19"],
+                          "children": [
+                            {
+                              "name": ["writing_with_and_about_religious_texts"],
+                              "size": [10.96487],
+                              "scaledsize": [0.008951],
+                              "topwords": ["god church religious christian bible faith religion spiritual christ prayer jesus catholic life biblical pastor community congregation sermon sacred "],
+                              "topic": [53],
+                              "rank": [38],
+                              "titles": ["Conversations about composition: Investigating writing conference and faculty feedback on writing in German as a foreign language || The rhetoric of _<a0>_Genesis A_<a0><9d> || From exile to exodus: Rhetoric and the re-constitution of community following one congregation's crisis in leadership || _<a0>_Find something worth doing_<a0><9d>: The preaching of William Sloane Coffin, Jr., 1977--1987. The hermeneutics of socially responsive homiletics || Dietrich Bonhoeffer: Creating ethos in uncertain circumstances"]
+                            },
+                            {
+                              "name": ["reading_Burke"],
+                              "size": [10.39769],
+                              "scaledsize": [0.008488],
+                              "topwords": ["burke terms motives symbolic identification term action act form order language human sense nature scene social arendt principle pp "],
+                              "topic": [26],
+                              "rank": [40],
+                              "titles": ["A Kenneth Burke lexicon: A reader's guide to selected terms in the major works of Kenneth Burke, 1931--1972 || A pentadic examination of Kenneth Burke's perspective by incongruity: Reading Burke's Nietzschean intertext || Re-examining Kenneth Burke on _<a0>_identification_<a0><9d> in the _<a0>_new_<a0><9d> rhetoric || Word man at war: The development of Kenneth Burke's dramatism || The unconscious as a rhetorical factor: Toward a BurkeLacanian theory and method"]
+                            }
+                          ]
+                        },
+                        {
+                          "name": ["17of19"],
+                          "children": [
+                            {
+                              "name": ["health_medicine_and_disease"],
+                              "size": [10.75533],
+                              "scaledsize": [0.00878],
+                              "topwords": ["health medical care medicine patient disease patients illness autism depression aids clinical mental people treatment body physicians doctors nursing "],
+                              "topic": [38],
+                              "rank": [39],
+                              "titles": ["Narrative efforts at social redemption by people with AIDS/HIV || Rhetorical training for physician assistants: Reuniting the science of medical care and the art of medical rhetoric || When _<a0>_a soda fountain orgy may mean death_<a0><9d>: Diabetes education and the rhetorics of compliance and responsibility || Collaboration or subordination: The role of rhetoric in the conception of primary healthcare giver || Strategic message design within the context of oral sex: Integrating guilt appeals and prospect theory"]
+                            },
+                            {
+                              "name": ["medicine_disability_the_body_and_identity"],
+                              "size": [5.96863],
+                              "scaledsize": [0.004872],
+                              "topwords": ["disability violence children birth baby deaf child control sanger body mother women disabilities bodies disabled rhetoric welfare mothers people "],
+                              "topic": [42],
+                              "rank": [50],
+                              "titles": ["Modifying mothers: The rhetorical construction of prenatal substance use in American discourse || Rhetorical norms of ableist culture || Encomium, agency, and subversion: The feminist recovery of baby books as women's domestic rhetoric || The discipline and disciplining of Margaret Sanger: United States birth control rhetoric in the early twentieth century || United States breastfeeding education and promotion, 1978--1999: A feminist rhetorical analysis"]
+                            }
+                          ]
+                        },
+                        {
+                          "name": ["3of19"],
+                          "children": [
+                            {
+                              "name": ["science_writing_and_environmentalism"],
+                              "size": [11.13779],
+                              "scaledsize": [0.009092],
+                              "topwords": ["science scientific environmental nature human natural scientists ecological wilderness environment world discourse public population ecology social conservation species management "],
+                              "topic": [19],
+                              "rank": [37],
+                              "titles": ["Deep Franciscanism and the writing of wildlife recovery and management plans: The wolves of Lake Superior || Molecular biology in narrative form || The rhetorical dimensions of radical flank effects: Investigations into the influence of emerging radical voices on the rhetoric of long-standing moderate organizations in two social movements || Conservation biology, postmodern theory, and rhetoric in _<a0>_the great new wilderness debate_<a0><9d>: A case study in environmental rhetoric, the rhetoric of science, and public argument || The range of rhetoric: The rhetoric and politics of grazing in southern Arizona"]
+                            },
+                            {
+                              "name": ["military-industrial_complex"],
+                              "size": [5.49188],
+                              "scaledsize": [0.004483],
+                              "topwords": ["public risk space nuclear report safety information relevance doe welsh missile image environmental wales topic soviet plant fernald controversy "],
+                              "topic": [51],
+                              "rank": [52],
+                              "titles": ["Sustained public participation and nuclear weapons cleanup: The evolution of stakeholder perspectives at the Fernald nuclear weapons site || The Space Race as the American dream: Fantasy theme analysis of _<a0>_The New York Times'_<a0><9d> coverage || Rhetoric, technology, and the military: The death of a _<a0>_TopGun_<a0><9d> || _<a0>_A solution to a worrisome problem_<a0><9d>: The rhetoric of scientific discourse in a public policy dispute about the environment || Framing national security threats: An analysis of the arguments in the missile defense controversy"]
+                            },
+                            {
+                              "name": ["food_and_cooking"],
+                              "size": [3.87939],
+                              "scaledsize": [0.003167],
+                              "topwords": ["food fat cooking quilt janette organic recipe recipes lu guan foods outlaw meat ms eating people quilting weight op "],
+                              "topic": [5],
+                              "rank": [55],
+                              "titles": ["Lost in the public imagination: The dismissal of political consumerism in news and entertainment food media || The sexual politics of meat substitutes || Linking dissent, incivility, the trickster myth, and outlaw discourse: Exploring and expanding outlaw discourse || Cultivating green ethos: Organic rhetoric in the mainstream market || Distance working: A rhetorical analysis of engineering email collaboration"]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": ["4of9"],
+                  "children": [
+                    {
+                      "name": ["4of11"],
+                      "children": [
+                        {
+                          "name": ["5of19"],
+                          "children": [
+                            {
+                              "name": ["performance"],
+                              "size": [11.58496],
+                              "scaledsize": [0.009457],
+                              "topwords": ["performance music humor play culture hip sports hop sport popular audience song football baseball york rap team black press "],
+                              "topic": [16],
+                              "rank": [36],
+                              "titles": ["An historical and contextual analysis of the use of the black rhetorical form of signifying in the performances of black male personality radio disc jockeys and rap musicians || From bricks to billboards: Race, rhetoric, and the hip-hop career || A rhetoric of sports talk radio || Cinderella in sneakers: ESPN _<a0>_SportsCenter_<a0><9d>'s coverage of the 2001 NCAA Men's Basketball Tournament || The role of epideictic rhetoric in postcrisis metanarration: The Concorde crash, relaunch, and retirement"]
+                            },
+                            {
+                              "name": ["race_and_white-black_power_struggles"],
+                              "size": [16.16584],
+                              "scaledsize": [0.013197],
+                              "topwords": ["black white african american race racial south americans people racism blacks rights whites negro slavery whiteness power community civil "],
+                              "topic": [7],
+                              "rank": [27],
+                              "titles": ["Reimagining Black Power: Prison manifestos and the strategies of regeneration in the rewriting of black identity, 1969--2002 || White rhetorics: South African expatriate discourse in the United States || See you in Dar-es-Salaam: The rhetoric of the Heartland Black Panther Party and the repression of the Black Revolution || Race, rights, and respect: The rhetorical possibilities of composition studies || Rhetoric and resistance in the historical narratives of nineteenth century African-Americans William Wells Brown and George Washington Williams"]
+                            }
+                          ]
+                        },
+                        {
+                          "name": ["7of19"],
+                          "children": [
+                            {
+                              "name": ["story_and_narrative"],
+                              "size": [49.46345],
+                              "scaledsize": [0.040378],
+                              "topwords": ["life back story time day man people mother don love home good young father stories family long left person "],
+                              "topic": [10],
+                              "rank": [4],
+                              "titles": ["The Faithful: Healing through narrative || _<a0>_Life On a Grape_<a0><9d> with an introduction on theories of the novel || Ghosts at the table: Historiography and nonfiction narrative as rhetorical constructs of the Mexican Counter-Revolution of 1913 || Writing a teaching life || Trusting narrative beyond theory: One teacher's story"]
+                            },
+                            {
+                              "name": ["narrative_theory_plus_fandom_plus_readers_as_writers"],
+                              "size": [17.8529],
+                              "scaledsize": [0.014574],
+                              "topwords": ["narrative story reading reader readers text literature fiction narratives stories literary book character characters audience read narrator texts author "],
+                              "topic": [23],
+                              "rank": [25],
+                              "titles": ["Who speaks, who listens, who acts: A new model for understanding narrative || Narrative technique as rhetorical strategy in selected children's works by Nathaniel Hawthorne || Inventing a universe: Reading and writing Internet fan fiction || Everywhere, or a reflection? Describing the _<a0>_Sweet Valley High_<a0><9d> experience || In the canon's mouth: Rhetoric and narration in historiographic metafiction"]
+                            }
+                          ]
+                        },
+                        {
+                          "name": ["9of19"],
+                          "children": [
+                            {
+                              "name": ["Native_American_history_and_rhetoric"],
+                              "size": [6.92866],
+                              "scaledsize": [0.005656],
+                              "topwords": ["indian american native indians land cherokee people indigenous white government cultural nation culture sovereignty history americans tribal states rhetorical "],
+                              "topic": [37],
+                              "rank": [46],
+                              "titles": ["United States governmental and native voices in the nineteenth century: Rhetoric in the removal and allotment of American Indians || The rhetoric of persuasion in selected works of Mary Austin || The rhetoric of Nuna Dual Tsuny: Retelling the Cherokee Trail of Tears || The rhetorical terrain of Nevada's historic markers || Kumeyaay online: Dimensions of rhetoric and culture in the Kumeyaay Web presence"]
+                            },
+                            {
+                              "name": ["workplace_and_organizational_histories"],
+                              "size": [41.87061],
+                              "scaledsize": [0.03418],
+                              "topwords": ["work time letter working place years letters business people make part job made money workers personal fact long article "],
+                              "topic": [12],
+                              "rank": [10],
+                              "titles": ["Characteristics and strategies of Bible college fund-raising letters || Institutes and institutions: A historical perspective of the Nebraska Writing Project || A handbook for the building and managing of the office worker: Gender, genre, and textual surveillance in 1930s office communication || Writing at Riverside Health Services: An ethnographic study in entrepreneurial communication || The business of consumer literacy: How the modern book industry shapes what we read"]
+                            },
+                            {
+                              "name": ["film_criticism_plus_Japan"],
+                              "size": [6.84348],
+                              "scaledsize": [0.005587],
+                              "topwords": ["film films japanese documentary media video japan cinema audience popular scene movie cultural camera festival camp man euro foreign "],
+                              "topic": [33],
+                              "rank": [47],
+                              "titles": ["Retelling a tale of the West: Akira Kurosawa's _<a0>_Yojimbo_<a0><9d> and its remakes || The rhetoric of the foreign worker problem in contemporary Japan || Bending _<a0>_The Hunchback_<a0><9d>: A rhetorical inquiry into Hollywood's quasi -medieval relationship with disability || Fashionably objective: When the politics of epistemology encounter progressive political documentary representation || Women on-lookers: Transnational feminist documentaries and the new women's diaspora"]
+                            },
+                            {
+                              "name": ["unclear_but_mostly_museums_and_archives"],
+                              "size": [5.3931],
+                              "scaledsize": [0.004403],
+                              "topwords": ["university state museum texas writing jewish board kairos editorial archives archive history jews visitors composition holocaust maps exhibit map "],
+                              "topic": [34],
+                              "rank": [53],
+                              "titles": ["Re-vision: A rhetorical analysis of change in the Holocaust Memorial Center || The Enola Gay in American memory: A study of rhetoric in historical controversy || American exceptionalism and the Shoah: The case of the United States Holocaust Memorial Museum || Communications in baccalaureate Forestry programs accredited by the Society of American Foresters: A study of how the accreditation requirement is currently fulfilled || The rhetoric of Black Jewish identity construction in America and Israel: 1964--1972"]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": ["5of11"],
+                      "children": [
+                        {
+                          "name": ["8of19"],
+                          "children": [
+                            {
+                              "name": ["women_acting_rhetorically"],
+                              "size": [23.2852],
+                              "scaledsize": [0.019008],
+                              "topwords": ["women woman gender feminist men female male sex sexual feminine feminism public work gay rhetorical issues masculine girls domestic "],
+                              "topic": [11],
+                              "rank": [21],
+                              "titles": ["Body bound: Oppositional arguments through three waves of the American feminist movement || Feminist prophecy in the American radical tradition: Elizabeth Cady Stanton's _<a0>_The Woman's Bible_<a0><9d> || Collaboration as rhetorical action: Angelina and Sarah Grimke's private correspondence, public oratory, and development of feminist theory || Women of the spheres: Early American women rhetoricians || Regendering delivery: The fifth canon and nineteenth-century women rhetors"]
+                            },
+                            {
+                              "name": ["identity_construction"],
+                              "size": [48.60173],
+                              "scaledsize": [0.039675],
+                              "topwords": ["identity social discourse cultural ways culture power space discourses people practices community identities understanding language personal place construction difference "],
+                              "topic": [15],
+                              "rank": [5],
+                              "titles": ["Be-coming subjects: Reclaiming a politics of location as radical political rhetoric || Third-space sites, subjectivities and discourses: Reimagining the representational potentials of (b)orderlands' rhetorics || Space-people-language: A grounded theory of a place-based pedagogy in a first year writing class || A textual analysis of first-year rhetoric and composition course syllabi and rhetorical rhetorics as a site for identity and knowledge construction || The rhetoric of silence: Understanding absence as presence"]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": ["5of6"],
+              "children": [
+                {
+                  "name": ["6of9"],
+                  "children": [
+                    {
+                      "name": ["7of11"],
+                      "children": [
+                        {
+                          "name": ["11of19"],
+                          "children": [
+                            {
+                              "name": ["court_decisions_and_ramifications"],
+                              "size": [12.34267],
+                              "scaledsize": [0.010076],
+                              "topwords": ["law legal court state justice case act rights political states supreme decision cases constitution argument trial arguments debate laws "],
+                              "topic": [20],
+                              "rank": [34],
+                              "titles": ["The United States Supreme Court and women's rights in the 20th century: An examination of the court's rhetorical treatment of women and gender || Legitimacy in the 2000 post-election campaign: Argumentative and rhetorical perspectives || The Federalist Society and movement conservatism: How a fractious coalition on the right is changing constitutional law and the way we talk and think about it || Degradation of ethos in adversarial contexts || The gendering of legislative rationality: Women, immigrants, and the nationalization of citizenship, 1918--1922"]
+                            },
+                            {
+                              "name": ["international_conflict_and_negotiation"],
+                              "size": [7.99728],
+                              "scaledsize": [0.006528],
+                              "topwords": ["peace conflict korea korean south colonial people political trade power israeli india lyceum national witch world witches north international "],
+                              "topic": [52],
+                              "rank": [44],
+                              "titles": ["Defending non-compliance: The role of cultural identity and the re-presentation of power in United States-South Korea trade negotiations || Framing and counterframing of the Middle East peace process in the Arab-Israeli press: A comparative analysis of _<a0>_Assafir_<a0><9d> and _<a0>_The Jerusalem Post_<a0><9d> || Framing North Korea as an \"axis of evil\": A comparative analysis of North Korea in the United States and South Korean newspapers || Mahatma Gandhi's _<a0>_Constructive Programme_<a0><9d>: Building a new India || Long-distance nationalism: Persuasive invocations of militant Hinduism in North America"]
+                            },
+                            {
+                              "name": ["capitalism_Marxism_and_activism"],
+                              "size": [44.15482],
+                              "scaledsize": [0.036045],
+                              "topwords": ["public political social economic movement rhetoric society politics power cultural labor university state democracy change action democratic rhetorical class "],
+                              "topic": [17],
+                              "rank": [8],
+                              "titles": ["Making change: The role of rhetoric in the politicization of consumption || Inside the teaching machine: The United States public research university, surplus value, and the political economy of globalization || Entering the fray: The slogan's place in Bolshevik organizational communication || Race, citizenship and the institutionalization of English: A historical inquiry into the future of the field || Literacies for the long haul: Radical teaching, social movements, and spaces of hope in the age of neoliberal globalization"]
+                            },
+                            {
+                              "name": ["political_rhetoric_mostly_of_the_US"],
+                              "size": [32.22972],
+                              "scaledsize": [0.02631],
+                              "topwords": ["war president american public states united bush national military america speech political nation government people policy press carter york "],
+                              "topic": [28],
+                              "rank": [16],
+                              "titles": ["Part of something larger than ourselves: George H.W. Bush and the rhetoric of the first United States war in the Persian Gulf || Foreign policy rhetoric for the post-Cold War world: Bill Clinton and America's foreign policy vocabulary || The Reagan rhetoric: History and memory in 1980s America || Jimmy Carter's presidential rhetoric: Panama Canal, human rights, and Zimbabwe || Unheard and unheeded: The rhetoric of military dissent in the debate over Vietnam"]
+                            }
+                          ]
+                        },
+                        {
+                          "name": ["16of19"],
+                          "children": [
+                            {
+                              "name": ["civic_discourse_plus_china_and_japan_plus"],
+                              "size": [5.9641],
+                              "scaledsize": [0.004869],
+                              "topwords": ["chinese china apology discourse mao vico garcia zedong hong humphrey kong cultural western utterance council people taiwanese mr political "],
+                              "topic": [54],
+                              "rank": [51],
+                              "titles": ["Public discourse in the civic arena: Taxonomies of oral and written discourse in a local city government's council meetings || The rhetorical strategy of travel narrative in Li Ruzhen's _<a0>_Jinghua Yuan_<a0><9d> and Herman Melville's _<a0>_Mardi_<a0><9d> || A nation apologizes: Japanese apologies for World War II || A cross-cultural study of the speech act of apology in American English and Jordanian Arabic || A rhetorical analysis of Falungong in China: Inheritance of tradition, contemporary appeals, and challenge to the social order"]
+                            },
+                            {
+                              "name": ["political_discourse"],
+                              "size": [13.61953],
+                              "scaledsize": [0.011118],
+                              "topwords": ["media news campaign political public blog obama television people issues communication coverage http analysis internet blogs post audience clinton "],
+                              "topic": [36],
+                              "rank": [31],
+                              "titles": ["A functional analysis of the 2000 Taiwanese presidential campaign discourse: Advertisements and speeches || He said, she said: A functional analysis of differences between male and female political campaign messages || The impact of interest group and news media framing on public opinion: The rise and fall of the Clinton health care plan || _<a0><97>Through which channel, with what effect_<a0>_: The impact of channel on voter learning and candidate evaluation from political messages || Journalists and gender issues in the 1996 United States presidential election: An analysis of television network news coverage"]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": ["3of4"],
+          "children": [
+            {
+              "name": ["4of6"],
+              "children": [
+                {
+                  "name": ["5of9"],
+                  "children": [
+                    {
+                      "name": ["6of11"],
+                      "children": [
+                        {
+                          "name": ["10of19"],
+                          "children": [
+                            {
+                              "name": ["close-reading_Classical_rhetoric"],
+                              "size": [32.33704],
+                              "scaledsize": [0.026398],
+                              "topwords": ["rhetoric rhetorical audience aristotle ethos speech argument classical theory plato communication persuasion invention speaking rhetor arguments good truth philosophy "],
+                              "topic": [21],
+                              "rank": [15],
+                              "titles": ["Aristotelian _<a0>_pathe_<a0><9d>: An investigation of Aristotle's politically informed _<a0>_Rhetoric_<a0><9d> || Reading and using the past: Aristotle's _<a0>_Rhetoric_<a0><9d> and its historical contexts and using the past in the present || Capturing kairos: A theory of rhetorical cunning || Plato's ideal art of rhetoric: An interpretation of _<a0>_Phaedrus_<a0><9d> 270B--272B || Ghostwriting ethos: Beyond character and the character beyond"]
+                            },
+                            {
+                              "name": ["invention_plus_postmodernist_theories_of_meaning"],
+                              "size": [15.80056],
+                              "scaledsize": [0.012898],
+                              "topwords": ["work subject plagiarism body foucault sense ethics heidegger question place subjectivity postmodern text ethical desire chapter derrida time relation "],
+                              "topic": [18],
+                              "rank": [28],
+                              "titles": ["Rereading and rewriting bloc/ks: Teaching multi-modal literacies through an apprenticeship in proper names || Place and movement: A philosophy of rhetoric || Rhetoric, composition, life: Rhythms of pedagogy, politics, and virtue || The subject of ethos at the ends of rhetoric || Pathologies of performance: A postmodern heuristic of disruption"]
+                            },
+                            {
+                              "name": ["philosophy_of_language"],
+                              "size": [54.22525],
+                              "scaledsize": [0.044266],
+                              "topwords": ["language theory discourse meaning knowledge system fact point power metaphor question view speech human case social model problem sense "],
+                              "topic": [48],
+                              "rank": [3],
+                              "titles": ["Minimal foundationalism in literacy studies || A pragmatics of power using Juergen Habermas' theory of communicative action || Radical interpretation of metaphors in groups and organizations (2002) || The rhetorical dimension of mathematics || Metaphors we kill by; rhetoric and conceptual structure in United States Army doctrine"]
+                            },
+                            {
+                              "name": ["poetics_and_semiotics"],
+                              "size": [35.55978],
+                              "scaledsize": [0.029028],
+                              "topwords": ["world experience memory life human art poetry work time process meaning voice language nature metaphors words mind form sense "],
+                              "topic": [14],
+                              "rank": [14],
+                              "titles": ["Embodied texts: Reading new subjectivity through Charles Olson and Muriel Rukeyser || Charles Sanders Peirce, the extraordinary moment, and musical affect || John Dewey on the art of communication || Transformation aspects of interpretation and translation of culturally distant mystical and religious texts || Rememoried knowing: A feminist interpretation of the canon of memory"]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": ["8of9"],
+                  "children": [
+                    {
+                      "name": ["9of11"],
+                      "children": [
+                        {
+                          "name": ["14of19"],
+                          "children": [
+                            {
+                              "name": ["silence_plus_England"],
+                              "size": [8.95803],
+                              "scaledsize": [0.007313],
+                              "topwords": ["english england de letter century letters chomsky early sublime hyperbole style renaissance london elizabeth eighteenth texts scrapbooks language scrapbook "],
+                              "topic": [29],
+                              "rank": [41],
+                              "titles": ["Accounting for fieldwork in three areas of modern geology: A situated analysis of textual silence and salience || Reticent romans: Silence and writing in _<a0>_La Vie de Saint Alexis_<a0><9d>, _<a0>_Le Conte du Graal_<a0><9d>, and _<a0>_Le Roman de Silence_<a0><9d> || Stylistic reform in seventeenth-century British writing || Rhetorical constructions of heresy in early modern England || The rhetorical education of eighteenth-century British women writers"]
+                            },
+                            {
+                              "name": ["18th_and_19th_centuries"],
+                              "size": [38.8859],
+                              "scaledsize": [0.031744],
+                              "topwords": ["history century american early rhetoric historical nineteenth society life york moral university great education public press literature men america "],
+                              "topic": [31],
+                              "rank": [11],
+                              "titles": ["W. E. Aytoun, first Regius Professor of Rhetoric and English Literature: Contributions to the discipline of English studies || What we talk about when we talk about English Studies || Marketplace of eloquence: Nineteenth-century Calvinism and the rhetoric of oratorical culture || Rhetorical histories: Historical discourse and the shaping of American national identity || The education of culture: The lyceum impulse in the Old Dominion"]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

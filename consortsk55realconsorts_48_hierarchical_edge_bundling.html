@@ -16,21 +16,22 @@
 <body>
 <!-- Set up the page structure -->
 <div id="title">
-	<h1>Co-occurring topics in Consortium School dissertations</h1>
+	<h1>Co-occurring topics in Consortium Program dissertations</h1>
 	<h2>55 total topics, less 7 excluded topics</h2>
 </div>
 <div id="intro">
 	<p>Branches were produced by agglomerative clustering in R using cor() and hclust(), and the resulting tree cut to highlight major divisions.</p>
 	<p>Seven topics are excluded from this figure because they were especially non-content-bearing, e.g. topics comprised of non-words formed by unsuccessful character recognition during the scanning process or topics indicating merely a non-English language.</p>
-	<p>NB: These dissertations span <b>a range of departments</b>.</p>
-	<p>To be linked in this figure, two topics must each contribute at least <span id="level">12</span> percent to the same dissertation, and such a pairing must occur at least <span id="min">4</span> times.</p>
+	<p>NB: These dissertations were written, as best I could determine, for PhD programs in the <a href="http://ccccdoctoralconsortium.org">Consortium of Doctoral Programs in Rhetoric and Composition</a>.</p>
+	<p>To be linked in this figure, two topics must each contribute at least <span id="level">11</span> percent to the same dissertation, and such a pairing must occur at least <span id="min">4</span> times.</p>
 </div>
 <div id="inputs">
-<div>Change tension: <input style="position:relative;top:3px;" type="range" min="0" max="100" value="85"></div>
+<div id="tension">Change tension: <input style="position:relative;top:3px;" type="range" min="0" max="100" value="85"></div>
 </div>
 <div id="figure"></div>
 <div id="details">Hover over any item for more details.</div>
-<div id="promo">Explore this model: <h3>http://ow.ly/J2dVL</h3></div>
+<div id="promo">Explore this model: <h3>http://bit.ly/benedges</h3></div>
+<div id="credits">This model was constructed using <a href="http://mallet.cs.umass.edu/about.php">MALLET</a> and <a href="https://www.r-project.org/about.html">R</a>, and visualized using <a href="d3js.org">d3.js</a> based on designs by <a href="https://github.com/d3/d3/wiki/Bundle-Layout">Mike Bostock</a> and <a href="http://www.r-bloggers.com/plugging-hierarchical-data-from-r-into-d3/">Rolf Fredheim</a>.</div>
 
 
 <!-- Set up the figure -->
@@ -72,14 +73,14 @@ svg.append("svg:path")
 
 // Bring in the data
 	// first, set parameters (will be updatable soon)
-var level = 12,		// what percentage does each topic comprise in a given doc?
+var level = 11,		// what percentage does each topic comprise in a given doc?
 	min   = 4,		// how many times should the pair occur?
-	subset_name = "";
+	subset_name = "realconsorts";
 
 	//then combine them into a filename
 var	datafile = "edges_consortsk55" + subset_name + "_48_" + level.toString() + "pct_min" + min.toString() + "_nobads.json";
 
-	// also, let's update the intro text
+	// also, let's make sure we update the intro text
 document.getElementById("level").innerText = level;
 document.getElementById("min").innerText = min;
 
@@ -176,10 +177,10 @@ function mouseover(d) {
 //   console.log("scaledsize: " + d.scaledsize);
 //   console.log("topwords: " + d.topwords);
   deets.innerHTML = "<h2>Topic " + d.topic + ": " + d.key.replace(/_/g, ' ') + "</h2>" 
-  					+ "<div id='size'>Percentage of corpus: " + d.scaledsize.toFixed(2) + "<br /><br /></div>" 
-					+ "<div id='size'>Topic Rank: " + d.rank + "<br /><br /></div>" 
-  					+ "<div id='topwords'>Top words: " + d.topwords.split(' ').join(', ') + "...</div>";
-  
+  					+ "<div id='size'><b>Percentage of corpus:</b> " + d.scaledsize.toFixed(2) + "</div>" 
+					+ "<div id='size'><b>Topic Rank:</b> " + d.rank + "</div>" 
+  					+ "<div id='topwords'><b>Top words:</b> " + d.topwords.split(' ').join(', ') + "...</div>"
+  					+ "<div id='titles'><b>Top dissertations:</b><br/><ol><li>" + d.titles.split('||').join('</li><li>') + "</li></ol></div>";
       
 }
 

@@ -39,17 +39,18 @@ path.arc {
   <body>
 	<!-- Set up the page structure -->
 	<div id="title">
-		<h1>Hierarchical similarity of topics in Consortium School dissertations</h1>
+		<h1>Hierarchical similarity of topics in Consortium Program dissertations</h1>
 		<h2>55 total topics, less 7 excluded topics</h2>
 	</div>
 	<div id="intro">
 		<p>Branches were produced by agglomerative clustering in R using cor() and hclust(), and the resulting tree cut to highlight major divisions. The central node (labeled '1of1') contains all topics; each subsequent branch point represents a point of convenience for considering groups of topics, with the first number being an arbitrary name and the second indicating the number of groups formed by that cut.</p>
 		<p>Seven topics are excluded from this figure because they were especially non-content-bearing, e.g. topics comprised of non-words formed by unsuccessful character recognition during the scanning process, or topics indicating merely a non-English language.</p>
-		<p>NB: These dissertations span <b>a range of departments</b>.</p>
+		<p>NB: These dissertations were completed, as best I could determine, for PhD programs within the Doctoral Consortium of Rhetoric and Composition.</p>
 	</div>
 	<div id="figure"></div>
 	<div id="details">Hover over any item for more details.</div>
-	<div id="promo">Explore this model: <h3>http://ow.ly/J2dVL</h3></div>
+	<div id="promo">Explore this model: <h3>http://bit.ly/benradial</h3></div>
+	<div id="credits">This model was constructed using <a href="http://mallet.cs.umass.edu/about.php">MALLET</a> and <a href="https://www.r-project.org/about.html">R</a>, and visualized using <a href="d3js.org">d3.js</a> based on designs by <a href="https://github.com/d3/d3/wiki/Bundle-Layout">Mike Bostock</a> and <a href="http://www.r-bloggers.com/plugging-hierarchical-data-from-r-into-d3/">Rolf Fredheim</a>.</div>
 	
 <!-- Set up the figure -->
 <script type="text/javascript">
@@ -85,7 +86,7 @@ vis.append("svg:path")
     .on("mousedown", mousedown);
 
 // Bring in the data and draw the figure
-d3.json("consortsk55_clusters_48.json", function(json) {
+d3.json("consortsk55realconsorts_clusters_48.json", function(json) {
   var nodes = cluster.nodes(json);
 // console.log(nodes);
   var link = vis.selectAll("path.link")
@@ -220,9 +221,10 @@ function mouseover(d) {
 	} else {
 
 	  deets.innerHTML = "<h2>Topic " + d.topic + ": " + d.name[0].replace(/_/g, ' ') + "</h2>" 
-						+ "<div id='size'>Percentage of corpus: " + (100*d.scaledsize[0]).toFixed(2) + "<br /><br /></div>" 
-						+ "<div id='size'>Topic Rank: " + d.rank[0] + "<br /><br /></div>" 
-						+ "<div id='topwords'>Top words: " + d.topwords[0].split(' ').join(', ') + "...</div>";
+						+ "<div id='size'><b>Percentage of corpus:</b> " + (100*d.scaledsize[0]).toFixed(2) + "</div>" 
+						+ "<div id='size'><b>Topic Rank:</b> " + d.rank[0] + "</div>" 
+						+ "<div id='topwords'><b>Top words:</b> " + d.topwords[0].split(' ').join(', ') + "...</div>"
+						+ "<div id='titles'><b>Top dissertations:</b> <br/><ol><li>" + d.titles[0].split('||').join('</li><li>') + "</li></ol></div>";
 	}
 }
 

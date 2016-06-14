@@ -47,9 +47,13 @@ div#details {
   left: 725px;
   float: right;
   max-width: 250px;
-  top:325px;
+  top:150%;
   word-wrap: break-word;
 /*   border: 1px solid #DEDEDE;		// for testing only  */
+}
+
+div#details div, div#details li {
+  margin-bottom: 0.5em;
 }
 
 div#promo {
@@ -57,7 +61,7 @@ div#promo {
   left: 725px;
   float: right;
   max-width: 250px;
-  top:225px;
+  top:100%;
   border: 1px black solid;
   padding-top: 10px;
   width:  100%;
@@ -69,11 +73,27 @@ div#promo {
 
 div#inputs {
 	position:absolute;
-	top:650px;
+	top:135%;
 	left:725px; 
-	font-size:11px; 
 	max-width:250px;
+	font-size:11px; 
 /* 	border: 1px solid #DEDEDE;		// for testing only  */
+}
+
+div#credits {
+	position:absolute;
+	top:1050px;
+	margin: 3em 0;
+	font-size: 0.7em;
+	max-width: 700px;
+}
+
+div#credits a {
+	color: #457EA4;
+}
+
+div#credits a:hover, div#credits a:active {
+	text-decoration: underline;
 }
 
 .node {
